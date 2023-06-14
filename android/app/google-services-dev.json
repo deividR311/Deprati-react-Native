@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "232635688972",
+    "project_id": "hybris-344319",
+    "storage_bucket": "hybris-344319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232635688972:android:8235fff3d300b2f4d9a629",
+        "android_client_info": {
+          "package_name": "com.deprati.appv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232635688972-7k0thm6g88bl2aam1o0a6g76ili3go3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhUb5Z1mS5P3BZtPhGEqsrHvmKCB21N1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232635688972-7k0thm6g88bl2aam1o0a6g76ili3go3n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "232635688972-s2iqt4cs9rqj4duvjh5b50hkjuluuvak.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deprati.appv21",
+                "app_store_id": "1620206104"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`backButton test renders correctly backButton in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <Text
+          accessibilityLabel="boton_goback"
+          accessible={true}
+          allowFontScaling={false}
+          onPress={[Function]}
+          options={
+            Object {
+              "animation": undefined,
+              "animationDuration": undefined,
+              "animationTypeForReplace": undefined,
+              "autoHideHomeIndicator": undefined,
+              "contentStyle": undefined,
+              "customAnimationOnGesture": undefined,
+              "fullScreenGestureEnabled": undefined,
+              "gestureDirection": undefined,
+              "gestureEnabled": undefined,
+              "header": undefined,
+              "headerBackButtonMenuEnabled": undefined,
+              "headerBackImageSource": undefined,
+              "headerBackTitle": undefined,
+              "headerBackTitleStyle": undefined,
+              "headerBackTitleVisible": undefined,
+              "headerBackVisible": undefined,
+              "headerBackground": undefined,
+              "headerBlurEffect": undefined,
+              "headerLargeStyle": undefined,
+              "headerLargeTitle": undefined,
+              "headerLargeTitleShadowVisible": undefined,
+              "headerLargeTitleStyle": undefined,
+              "headerLeft": undefined,
+              "headerRight": undefined,
+              "headerSearchBarOptions": undefined,
+              "headerShadowVisible": undefined,
+              "headerShown": undefined,
+              "headerStyle": undefined,
+              "headerTintColor": undefined,
+              "headerTitle": undefined,
+              "headerTitleAlign": undefined,
+              "headerTitleStyle": undefined,
+              "headerTransparent": undefined,
+              "navigationBarColor": undefined,
+              "navigationBarHidden": undefined,
+              "orientation": undefined,
+              "presentation": undefined,
+              "statusBarAnimation": undefined,
+              "statusBarColor": undefined,
+              "statusBarHidden": undefined,
+              "statusBarStyle": undefined,
+              "statusBarTranslucent": undefined,
+              "title": undefined,
+            }
+          }
+          route={
+            Object {
+              "key": "",
+              "name": "string",
+            }
+          }
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 28,
+              },
+              Object {
+                "paddingHorizontal": 0,
+              },
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="boton_goback"
+        >
+          󰁍
+        </Text>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

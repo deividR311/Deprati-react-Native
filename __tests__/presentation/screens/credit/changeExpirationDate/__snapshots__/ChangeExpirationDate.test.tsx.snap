@@ -1,0 +1,680 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeExpirationDate renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView>
+            <View>
+              <View
+                style={
+                  Object {
+                    "padding": 18,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "borderRadius": 3,
+                      "elevation": 4,
+                      "flexDirection": "row",
+                      "padding": 14,
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 2,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.25,
+                      "shadowRadius": 3.84,
+                    }
+                  }
+                >
+                  <Image
+                    height={64}
+                    source={
+                      Object {
+                        "testUri": "../../../assets/images/cardCredito.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 64,
+                        "width": 106,
+                      }
+                    }
+                    width={106}
+                  />
+                  <View
+                    style={
+                      Object {
+                        "height": 62,
+                        "marginLeft": 17,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 10,
+                            "fontWeight": "400",
+                            "letterSpacing": 1,
+                          },
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Medium",
+                            "fontSize": 12,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.8,
+                          },
+                          Object {
+                            "flexGrow": 1,
+                          },
+                        ]
+                      }
+                    >
+                      PATRICIA L. DE UGALDE
+14XXX86 00
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Medium",
+                            "fontSize": 12,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.8,
+                          },
+                          Object {
+                            "color": "#26323880",
+                          },
+                        ]
+                      }
+                    >
+                      Cliente desde 2000
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#F5F6F9",
+                      "marginVertical": 16,
+                      "padding": 12,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0.44,
+                          "lineHeight": 24,
+                          "marginBottom": 4,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    Fecha de pago actual
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 14,
+                          "fontWeight": "400",
+                        },
+                      ]
+                    }
+                  >
+                    14 de cada mes
+                  </Text>
+                </View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": undefined,
+                        "letterSpacing": 0.44,
+                        "lineHeight": 24,
+                        "marginBottom": 4,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "marginBottom": 10,
+                      },
+                    ]
+                  }
+                >
+                  Cambia la fecha máxima de pago
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#263238",
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 14,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  El día que selecciones aplicará para todos tus siguientes pagos de tu crédito De Prati
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "marginVertical": 20,
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel=""
+                    accessible={true}
+                    onLayout={[Function]}
+                    testID=""
+                  >
+                    <View />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FFC70033",
+                      "borderColor": "#FFC700",
+                      "borderRadius": 4,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "padding": 12,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "display": "flex",
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <RNSVGSvgView
+                      align="xMidYMid"
+                      bbHeight={21}
+                      bbWidth={21}
+                      fill="none"
+                      focusable={false}
+                      height={21}
+                      meetOrSlice={0}
+                      minX={0}
+                      minY={0}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "borderWidth": 0,
+                          },
+                          Object {
+                            "flex": 0,
+                            "height": 21,
+                            "width": 21,
+                          },
+                        ]
+                      }
+                      vbHeight={21}
+                      vbWidth={21}
+                      width={21}
+                    >
+                      <RNSVGGroup
+                        fill={null}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      >
+                        <RNSVGPath
+                          d="M9.02624 14.5C9.02624 13.9477 9.47526 13.5 10.0292 13.5C10.5831 13.5 11.0321 13.9477 11.0321 14.5C11.0321 15.0523 10.5831 15.5 10.0292 15.5C9.47526 15.5 9.02624 15.0523 9.02624 14.5ZM9.02624 6.5C9.02624 5.94772 9.47526 5.5 10.0292 5.5C10.5831 5.5 11.0321 5.94772 11.0321 6.5V10.5C11.0321 11.0523 10.5831 11.5 10.0292 11.5C9.47526 11.5 9.02624 11.0523 9.02624 10.5V6.5ZM10.0241 0.5C4.48303 0.5 0 4.975 0 10.5C0 16.025 4.48303 20.5 10.0241 20.5C15.5653 20.5 20.0583 16.025 20.0583 10.5C20.0583 4.975 15.5653 0.5 10.0241 0.5ZM10.0292 18.5C5.59627 18.5 2.00583 14.92 2.00583 10.5C2.00583 6.08 5.59627 2.5 10.0292 2.5C14.462 2.5 18.0525 6.08 18.0525 10.5C18.0525 14.92 14.462 18.5 10.0292 18.5Z"
+                          fill={4280693304}
+                          propList={
+                            Array [
+                              "fill",
+                            ]
+                          }
+                        />
+                      </RNSVGGroup>
+                    </RNSVGSvgView>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "paddingHorizontal": 12,
+                        "paddingLeft": 8,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "400",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      <Text>
+                        <Text>
+                          No puedes cambiar tu fecha máxima de pago si tienes una deuda pendiente y 
+                        </Text>
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "fontFamily": "Roboto-Bold",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        <Text>
+                          este cambio se hará efectivo a partir del próximo mes.
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "fontWeight": "400",
+                            }
+                          }
+                        >
+                          
+                        </Text>
+                      </Text>
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessibilityLabel="view_"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "paddingHorizontal": 10,
+                    },
+                  ]
+                }
+                testID="view_"
+              >
+                <View
+                  accessibilityLabel=""
+                  accessibilityLiveRegion="polite"
+                  accessibilityRole="checkbox"
+                  accessibilityState={
+                    Object {
+                      "checked": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderRadius": 18,
+                        "height": 36,
+                        "padding": 6,
+                        "width": 36,
+                      },
+                    ]
+                  }
+                  testID=""
+                >
+                  <View
+                    collapsable={false}
+                    style={
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scale": 1,
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Text
+                      accessibilityElementsHidden={true}
+                      allowFontScaling={false}
+                      importantForAccessibility="no-hide-descendants"
+                      pointerEvents="none"
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontSize": 24,
+                          },
+                          Array [
+                            Object {
+                              "lineHeight": 24,
+                              "transform": Array [
+                                Object {
+                                  "scaleX": 1,
+                                },
+                              ],
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ],
+                          Object {
+                            "fontFamily": "Material Design Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      󰄱
+                    </Text>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          },
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "borderColor": "#000000",
+                            "borderWidth": 0,
+                            "height": 14,
+                            "width": 14,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "textAlign": "left",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    acceptThe
+                  </Text>
+                  <Text
+                    onPress={[Function]}
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "marginHorizontal": 5,
+                        },
+                        Object {
+                          "color": "#E31A2C",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                      ]
+                    }
+                  >
+                    termsAndConditions
+                  </Text>
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginTop": 15,
+                    "paddingHorizontal": 15,
+                  }
+                }
+              >
+                <View
+                  accessibilityLabel=""
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#D3D3D3",
+                      "borderRadius": 5,
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "paddingVertical": 10,
+                      "width": "100%",
+                    }
+                  }
+                  testID=""
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "white",
+                            "fontFamily": undefined,
+                            "fontSize": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": undefined,
+                          },
+                          Object {},
+                          Object {},
+                        ]
+                      }
+                    >
+                      CAMBIAR FECHA
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 80,
+                    "width": "100%",
+                  }
+                }
+              />
+            </View>
+          </RCTScrollView>
+          <Modal
+            animationType="fade"
+            hardwareAccelerated={false}
+            onDismiss={[Function]}
+            transparent={true}
+            visible={false}
+          />
+          <Modal
+            animationType="fade"
+            hardwareAccelerated={false}
+            onDismiss={[Function]}
+            transparent={true}
+            visible={false}
+          />
+          <Modal
+            animationType="fade"
+            hardwareAccelerated={false}
+            onDismiss={[Function]}
+            transparent={true}
+            visible={false}
+          />
+          <Modal
+            animationType="fade"
+            hardwareAccelerated={false}
+            onDismiss={[Function]}
+            transparent={true}
+            visible={false}
+          />
+          <Modal
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          />
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

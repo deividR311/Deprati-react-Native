@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentTitleDelete Favorites renders correctly ComponentTitleDelete in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <View
+          style={Object {}}
+        >
+          <View
+            style={Object {}}
+          >
+            <Text
+              numberOfLines={2}
+              style={Object {}}
+            >
+              Camisero h&o
+            </Text>
+          </View>
+          <View
+            style={Object {}}
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="delete-favorite"
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight={14}
+                bbWidth={14}
+                fill="none"
+                focusable={false}
+                height={14}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 14,
+                      "width": 14,
+                    },
+                  ]
+                }
+                vbHeight={12}
+                vbWidth={12}
+                width={14}
+              >
+                <RNSVGGroup
+                  fill={null}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGPath
+                    d="M11.3936 1.81929C11.7285 1.48437 11.7285 0.94135 11.3936 0.606428C11.0586 0.271507 10.5156 0.271507 10.1807 0.606429L6 4.78714L1.81929 0.606429C1.48437 0.271508 0.94135 0.271507 0.606429 0.606429C0.271507 0.94135 0.271507 1.48436 0.606429 1.81929L4.78714 6L0.606429 10.1807C0.271508 10.5156 0.271507 11.0586 0.606428 11.3936C0.94135 11.7285 1.48436 11.7285 1.81929 11.3936L6 7.21286L10.1807 11.3936C10.5156 11.7285 11.0586 11.7285 11.3936 11.3936C11.7285 11.0586 11.7285 10.5156 11.3936 10.1807L7.21286 6L11.3936 1.81929Z"
+                    fill={4280693304}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

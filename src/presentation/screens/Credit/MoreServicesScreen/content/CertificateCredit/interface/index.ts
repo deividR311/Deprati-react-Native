@@ -1,0 +1,1 @@
+export * from './ICertificateCreditHook.interface';

@@ -1,0 +1,983 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stories renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            activeAnimationOptions={null}
+            activeAnimationType="timing"
+            activeSlideAlignment="center"
+            activeSlideOffset={20}
+            apparitionDelay={0}
+            automaticallyAdjustContentInsets={false}
+            autoplay={false}
+            autoplayDelay={1000}
+            autoplayInterval={6000}
+            callbackOffsetMargin={5}
+            collapsable={false}
+            containerCustomStyle={Object {}}
+            contentContainerCustomStyle={Object {}}
+            contentContainerStyle={
+              Array [
+                Object {
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                },
+                Object {},
+              ]
+            }
+            data={
+              Array [
+                Object {
+                  "childrenComponents": Object {
+                    "story2Entry1": Object {
+                      "container": "false",
+                      "image": Object {
+                        "format": "mobile",
+                        "imageType": "GALLERY",
+                        "url": "https://imagestg.deprati.com.ec/sys-master/images/hc6/h3c/8969830858782",
+                        "width": "480",
+                      },
+                      "modifiedTime": "2022-11-10T21:26:39+0000",
+                      "name": "story2Entry1",
+                      "storyCoordinateList": "xyCoordinate2-1-1 xyCoordinate2-1-2",
+                      "typeCode": "DepratiStoryEntryComponent",
+                      "uid": "story2Entry1",
+                    },
+                  },
+                  "childrenComponentsList": Array [
+                    "story2Entry1",
+                  ],
+                  "container": "false",
+                  "image": Object {
+                    "format": "mobile",
+                    "imageType": "GALLERY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hc6/h3c/8969830858782",
+                    "width": "480",
+                  },
+                  "modifiedTime": "2023-02-13T21:39:33+0000",
+                  "name": "Vestidos Mujer y Juvenil 375x660_2",
+                  "storyEntryList": "story2Entry1",
+                  "title": "Descubre nuestros nuevos vestidos",
+                  "typeCode": "DepratiStoryComponent",
+                  "uid": "story2",
+                },
+                Object {
+                  "childrenComponents": Object {
+                    "story5Entry5": Object {
+                      "container": "false",
+                      "image": Object {
+                        "format": "desktop",
+                        "imageType": "GALLERY",
+                        "url": "https://imagestg.deprati.com.ec/sys-master/images/h88/h7d/8984464982046/Vegano.jpg",
+                        "width": "992",
+                      },
+                      "modifiedTime": "2022-11-24T13:43:23+0000",
+                      "name": "story5Entry5",
+                      "storyCoordinateList": "xyCoordinateProductoElectro",
+                      "typeCode": "DepratiStoryEntryComponent",
+                      "uid": "story5Entry5",
+                    },
+                  },
+                  "childrenComponentsList": Array [
+                    "story5Entry5",
+                  ],
+                  "container": "false",
+                  "image": Object {
+                    "format": "desktop",
+                    "imageType": "GALLERY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h88/h7d/8984464982046/Vegano.jpg",
+                    "width": "992",
+                  },
+                  "modifiedTime": "2023-02-13T21:40:48+0000",
+                  "name": "MAQUILLAJE VEGANO 1080x1920",
+                  "storyEntryList": "story5Entry5",
+                  "title": "Nueva línea de Maquillaje Vegano",
+                  "typeCode": "DepratiStoryComponent",
+                  "uid": "Story5",
+                },
+                Object {
+                  "childrenComponents": Object {
+                    "StoryEntry9": Object {
+                      "container": "false",
+                      "modifiedTime": "2022-09-26T21:34:13+0000",
+                      "name": "StoryEntry9",
+                      "storyCoordinateList": "xyCoordinateReel9-1 xyCoordinateReel9-2 xyCoordinateReel9-3",
+                      "typeCode": "DepratiStoryEntryComponent",
+                      "uid": "StoryEntry9",
+                    },
+                  },
+                  "childrenComponentsList": Array [
+                    "StoryEntry9",
+                  ],
+                  "container": "false",
+                  "image": Object {
+                    "format": "desktop",
+                    "imageType": "GALLERY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hc1/he9/8980614742046/img_02.jpg",
+                    "width": "992",
+                  },
+                  "modifiedTime": "2023-02-13T22:01:55+0000",
+                  "name": "JEANS 1080x1920_1",
+                  "storyEntryList": "StoryEntry9",
+                  "title": "Nueva Colección de Jeans con actitud",
+                  "typeCode": "DepratiStoryComponent",
+                  "uid": "Story9",
+                },
+                Object {
+                  "childrenComponents": Object {
+                    "StoryEntry11": Object {
+                      "container": "false",
+                      "modifiedTime": "2022-09-26T21:34:13+0000",
+                      "name": "StoryEntry11",
+                      "storyCoordinateList": "xyCoordinateReel11-1 xyCoordinateReel11-2 xyCoordinateReel11-3",
+                      "typeCode": "DepratiStoryEntryComponent",
+                      "uid": "StoryEntry11",
+                    },
+                  },
+                  "childrenComponentsList": Array [
+                    "StoryEntry11",
+                  ],
+                  "container": "false",
+                  "image": Object {
+                    "format": "desktop",
+                    "imageType": "GALLERY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h04/he3/8980614938654/img_01.jpg",
+                    "width": "992",
+                  },
+                  "modifiedTime": "2023-02-27T13:14:35+0000",
+                  "name": "VESTIDOS JEAN 1080x1920_3",
+                  "storyEntryList": "StoryEntry11",
+                  "title": "¡Nuevos vestidos!",
+                  "typeCode": "DepratiStoryComponent",
+                  "uid": "Story11",
+                },
+              ]
+            }
+            decelerationRate={0.9}
+            directionalLockEnabled={true}
+            enableMomentum={true}
+            enableSnap={true}
+            firstItem={0}
+            forwardedRef={[Function]}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            hasParallaxImages={false}
+            horizontal={true}
+            inactiveSlideOpacity={0.8}
+            inactiveSlideScale={0.9}
+            inactiveSlideShift={0}
+            initialNumToRender={6}
+            invertStickyHeaders={false}
+            inverted={false}
+            itemWidth={750}
+            keyExtractor={[Function]}
+            layout="default"
+            lockScrollTimeoutDuration={1000}
+            lockScrollWhileSnapping={false}
+            loop={false}
+            loopClonesPerSide={3}
+            maxToRenderPerBatch={13}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onResponderRelease={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            onSnapToItem={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            overScrollMode="never"
+            pinchGestureEnabled={false}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEnabled={true}
+            scrollEventThrottle={1}
+            scrollsToTop={false}
+            shouldOptimizeUpdates={true}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
+            slideStyle={Object {}}
+            sliderWidth={750}
+            stickyHeaderIndices={Array []}
+            style={
+              Object {
+                "flexDirection": "row",
+                "opacity": 0,
+                "width": 750,
+              }
+            }
+            swipeThreshold={20}
+            useScrollView={false}
+            vertical={false}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={13}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  collapsable={false}
+                  pointerEvents="box-none"
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                      ],
+                      "width": 750,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flex": 1,
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "flex-start",
+                            "alignSelf": "center",
+                            "aspectRatio": 0.5625,
+                            "justifyContent": "flex-start",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <Image
+                        borderRadius={4}
+                        resizeMethod="resize"
+                        resizeMode="stretch"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/hc6/h3c/8969830858782",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": undefined,
+                              "width": "100%",
+                            },
+                            undefined,
+                          ]
+                        }
+                      />
+                      <ActivityIndicator
+                        color="#ffffff"
+                        size="large"
+                      />
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "backgroundColor": "#000000",
+                          "bottom": 0,
+                          "color": "#ffffff",
+                          "elevation": 2,
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 20,
+                          "fontWeight": "500",
+                          "height": "10%",
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "paddingHorizontal": 24,
+                          "paddingVertical": 8,
+                          "position": "absolute",
+                          "textAlign": "left",
+                          "width": "100%",
+                          "zIndex": 2,
+                        }
+                      }
+                    >
+                      Descubre nuestros nuevos vestidos
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  collapsable={false}
+                  pointerEvents="box-none"
+                  style={
+                    Object {
+                      "opacity": 0.8,
+                      "transform": Array [
+                        Object {
+                          "scale": 0.9,
+                        },
+                      ],
+                      "width": 750,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flex": 1,
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "flex-start",
+                            "alignSelf": "center",
+                            "aspectRatio": 0.5625,
+                            "justifyContent": "flex-start",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <Image
+                        borderRadius={4}
+                        resizeMethod="resize"
+                        resizeMode="stretch"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/h88/h7d/8984464982046/Vegano.jpg",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": undefined,
+                              "width": "100%",
+                            },
+                            undefined,
+                          ]
+                        }
+                      />
+                      <ActivityIndicator
+                        color="#ffffff"
+                        size="large"
+                      />
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "backgroundColor": "#000000",
+                          "bottom": 0,
+                          "color": "#ffffff",
+                          "elevation": 2,
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 20,
+                          "fontWeight": "500",
+                          "height": "10%",
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "paddingHorizontal": 24,
+                          "paddingVertical": 8,
+                          "position": "absolute",
+                          "textAlign": "left",
+                          "width": "100%",
+                          "zIndex": 2,
+                        }
+                      }
+                    >
+                      Nueva línea de Maquillaje Vegano
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  collapsable={false}
+                  pointerEvents="box-none"
+                  style={
+                    Object {
+                      "opacity": 0.8,
+                      "transform": Array [
+                        Object {
+                          "scale": 0.9,
+                        },
+                      ],
+                      "width": 750,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flex": 1,
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "flex-start",
+                            "alignSelf": "center",
+                            "aspectRatio": 0.5625,
+                            "justifyContent": "flex-start",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <Image
+                        borderRadius={4}
+                        resizeMethod="resize"
+                        resizeMode="stretch"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/hc1/he9/8980614742046/img_02.jpg",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": undefined,
+                              "width": "100%",
+                            },
+                            undefined,
+                          ]
+                        }
+                      />
+                      <ActivityIndicator
+                        color="#ffffff"
+                        size="large"
+                      />
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "backgroundColor": "#000000",
+                          "bottom": 0,
+                          "color": "#ffffff",
+                          "elevation": 2,
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 20,
+                          "fontWeight": "500",
+                          "height": "10%",
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "paddingHorizontal": 24,
+                          "paddingVertical": 8,
+                          "position": "absolute",
+                          "textAlign": "left",
+                          "width": "100%",
+                          "zIndex": 2,
+                        }
+                      }
+                    >
+                      Nueva Colección de Jeans con actitud
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  collapsable={false}
+                  pointerEvents="box-none"
+                  style={
+                    Object {
+                      "opacity": 0.8,
+                      "transform": Array [
+                        Object {
+                          "scale": 0.9,
+                        },
+                      ],
+                      "width": 750,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-start",
+                        "flex": 1,
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "flex-start",
+                            "alignSelf": "center",
+                            "aspectRatio": 0.5625,
+                            "justifyContent": "flex-start",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <Image
+                        borderRadius={4}
+                        resizeMethod="resize"
+                        resizeMode="stretch"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/h04/he3/8980614938654/img_01.jpg",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": undefined,
+                              "width": "100%",
+                            },
+                            undefined,
+                          ]
+                        }
+                      />
+                      <ActivityIndicator
+                        color="#ffffff"
+                        size="large"
+                      />
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "backgroundColor": "#000000",
+                          "bottom": 0,
+                          "color": "#ffffff",
+                          "elevation": 2,
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 20,
+                          "fontWeight": "500",
+                          "height": "10%",
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "paddingHorizontal": 24,
+                          "paddingVertical": 8,
+                          "position": "absolute",
+                          "textAlign": "left",
+                          "width": "100%",
+                          "zIndex": 2,
+                        }
+                      }
+                    >
+                      ¡Nuevos vestidos!
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "elevation": 2,
+                  "justifyContent": "center",
+                  "position": "absolute",
+                  "zIndex": 2,
+                },
+                Object {
+                  "top": -10,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={false}
+              pointerEvents="box-none"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 30,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <View
+                accessible={false}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginHorizontal": 8,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 50,
+                      "height": 4,
+                      "opacity": 0.2,
+                      "overflow": "hidden",
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                      ],
+                      "width": 167.5,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={false}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginHorizontal": 8,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 50,
+                      "height": 4,
+                      "opacity": 0.2,
+                      "overflow": "hidden",
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                      ],
+                      "width": 167.5,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={false}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginHorizontal": 8,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 50,
+                      "height": 4,
+                      "opacity": 0.2,
+                      "overflow": "hidden",
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                      ],
+                      "width": 167.5,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={false}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "marginHorizontal": 8,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 50,
+                      "height": 4,
+                      "opacity": 0.2,
+                      "overflow": "hidden",
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                      ],
+                      "width": 167.5,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E9EBED",
+                "borderBottomLeftRadius": 8,
+                "borderTopLeftRadius": 8,
+                "elevation": 2,
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 50,
+                "width": 40,
+                "zIndex": 2,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 20,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Material Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

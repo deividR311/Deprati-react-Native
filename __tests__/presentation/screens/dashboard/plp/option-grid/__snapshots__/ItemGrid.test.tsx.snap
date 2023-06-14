@@ -1,0 +1,982 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemGrid renders correctly in Snapshot ItemGrid 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 360,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderRadius": 8,
+                "height": 260,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessibilityLabel=""
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID=""
+            >
+              <View
+                accessibilityIgnoresInvertColors={true}
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 8,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                    false,
+                  ]
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h0e/h62/8821513715742/14856308-0_product_300Wx450H",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      Object {
+                        "height": "100%",
+                        "width": "100%",
+                      },
+                      Object {},
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "flex-end",
+                      "height": "10%",
+                      "width": "40%",
+                    }
+                  }
+                >
+                  
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "justifyContent": "flex-start",
+                    "paddingTop": 8,
+                    "width": "80%",
+                  },
+                ]
+              }
+            >
+              Blusa Amanda con amarre
+            </Text>
+            <View
+              style={
+                Object {
+                  "justifyContent": "flex-end",
+                  "width": "20%",
+                }
+              }
+            >
+              <View>
+                <View
+                  accessibilityRole="button"
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  hitSlop={
+                    Object {
+                      "bottom": 6,
+                      "left": 6,
+                      "right": 6,
+                      "top": 6,
+                    }
+                  }
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "margin": 6,
+                          "overflow": "hidden",
+                        },
+                        Object {
+                          "borderRadius": 15,
+                          "height": 30,
+                          "width": 30,
+                        },
+                        undefined,
+                        undefined,
+                      ],
+                    ]
+                  }
+                  testID="plp-button-favorite"
+                >
+                  <View>
+                    <Text
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontSize": 22,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="plp-icon-favorite"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "width": 172.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "Roboto-Regular",
+                    "marginRight": 5,
+                    "textDecorationLine": "line-through",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              $29,99
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#263238",
+                    "fontFamily": undefined,
+                    "fontSize": 17,
+                    "fontWeight": undefined,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              $3,00
+            </Text>
+          </View>
+          <View
+            style={Object {}}
+          >
+            <RCTScrollView
+              data={
+                Array [
+                  "https://imagestg.deprati.com.ec/sys-master/images/h27/h78/8868765237278/14919116_color.jpg",
+                  "https://imagestg.deprati.com.ec/sys-master/images/h8d/h69/8821513977886/14856309_color.jpg",
+                  "https://imagestg.deprati.com.ec/sys-master/images/h31/hb9/8868769923102/14919122_color.jpg",
+                ]
+              }
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={true}
+              keyExtractor={[Function]}
+              onContentSizeChange={[Function]}
+              onLayout={[Function]}
+              onMomentumScrollBegin={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              removeClippedSubviews={false}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              showsHorizontalScrollIndicator={false}
+              stickyHeaderIndices={Array []}
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "width": "95%",
+                }
+              }
+              viewabilityConfigCallbackPairs={Array []}
+            >
+              <View>
+                <View
+                  onLayout={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                      },
+                      null,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 5,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#ffffff",
+                            "borderRadius": 20,
+                            "borderWidth": 3,
+                            "elevation": 4,
+                            "height": 20,
+                            "marginRight": 10,
+                            "shadowColor": "#000",
+                            "shadowOffset": Object {
+                              "height": 1,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.2,
+                            "shadowRadius": 1.41,
+                            "width": 20,
+                          },
+                          Object {
+                            "height": 20,
+                            "width": 20,
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          Object {
+                            "disabled": true,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityIgnoresInvertColors={true}
+                          style={
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <Image
+                            source={
+                              Object {
+                                "uri": "https://imagestg.deprati.com.ec/sys-master/images/h27/h78/8868765237278/14919116_color.jpg",
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "bottom": 0,
+                                  "left": 0,
+                                  "position": "absolute",
+                                  "right": 0,
+                                  "top": 0,
+                                },
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                                Object {
+                                  "borderRadius": 20,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                      },
+                      null,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 5,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#ffffff",
+                            "borderRadius": 20,
+                            "borderWidth": 3,
+                            "elevation": 4,
+                            "height": 20,
+                            "marginRight": 10,
+                            "shadowColor": "#000",
+                            "shadowOffset": Object {
+                              "height": 1,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.2,
+                            "shadowRadius": 1.41,
+                            "width": 20,
+                          },
+                          Object {
+                            "height": 20,
+                            "width": 20,
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          Object {
+                            "disabled": true,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityIgnoresInvertColors={true}
+                          style={
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <Image
+                            source={
+                              Object {
+                                "uri": "https://imagestg.deprati.com.ec/sys-master/images/h8d/h69/8821513977886/14856309_color.jpg",
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "bottom": 0,
+                                  "left": 0,
+                                  "position": "absolute",
+                                  "right": 0,
+                                  "top": 0,
+                                },
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                                Object {
+                                  "borderRadius": 20,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                      },
+                      null,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 5,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#ffffff",
+                            "borderRadius": 20,
+                            "borderWidth": 3,
+                            "elevation": 4,
+                            "height": 20,
+                            "marginRight": 10,
+                            "shadowColor": "#000",
+                            "shadowOffset": Object {
+                              "height": 1,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.2,
+                            "shadowRadius": 1.41,
+                            "width": 20,
+                          },
+                          Object {
+                            "height": 20,
+                            "width": 20,
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          Object {
+                            "disabled": true,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityIgnoresInvertColors={true}
+                          style={
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <Image
+                            source={
+                              Object {
+                                "uri": "https://imagestg.deprati.com.ec/sys-master/images/h31/hb9/8868769923102/14919122_color.jpg",
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "bottom": 0,
+                                  "left": 0,
+                                  "position": "absolute",
+                                  "right": 0,
+                                  "top": 0,
+                                },
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                                Object {
+                                  "borderRadius": 20,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "width": "95%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "paddingVertical": 3,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginRight": 10,
+                      "width": 20,
+                    }
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={20}
+                    bbWidth={20}
+                    fill="none"
+                    focusable={false}
+                    height={20}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        Object {
+                          "flex": 0,
+                          "height": 20,
+                          "width": 20,
+                        },
+                      ]
+                    }
+                    vbHeight={15}
+                    vbWidth={16}
+                    width={20}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                        fill={4294938646}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "paddingVertical": 3,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginRight": 10,
+                      "width": 20,
+                    }
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={20}
+                    bbWidth={20}
+                    fill="none"
+                    focusable={false}
+                    height={20}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        Object {
+                          "flex": 0,
+                          "height": 20,
+                          "width": 20,
+                        },
+                      ]
+                    }
+                    vbHeight={15}
+                    vbWidth={16}
+                    width={20}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                        fill={4294938646}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "paddingVertical": 3,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginRight": 10,
+                      "width": 20,
+                    }
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={20}
+                    bbWidth={20}
+                    fill="none"
+                    focusable={false}
+                    height={20}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        Object {
+                          "flex": 0,
+                          "height": 20,
+                          "width": 20,
+                        },
+                      ]
+                    }
+                    vbHeight={15}
+                    vbWidth={16}
+                    width={20}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                        fill={4294938646}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "paddingVertical": 3,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginRight": 10,
+                      "width": 20,
+                    }
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={20}
+                    bbWidth={20}
+                    fill="none"
+                    focusable={false}
+                    height={20}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        Object {
+                          "flex": 0,
+                          "height": 20,
+                          "width": 20,
+                        },
+                      ]
+                    }
+                    vbHeight={15}
+                    vbWidth={16}
+                    width={20}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                        fill={4294938646}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": undefined,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              4
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

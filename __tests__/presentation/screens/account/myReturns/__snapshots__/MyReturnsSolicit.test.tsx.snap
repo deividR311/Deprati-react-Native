@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyReturnsSolicitScreen renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            onLayout={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "bottom": 0,
+                }
+              }
+            >
+              <RCTScrollView
+                contentContainerStyle={
+                  Object {
+                    "paddingBottom": 0,
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": 80,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 16,
+                          "fontStyle": "normal",
+                          "fontWeight": "400",
+                          "letterSpacing": 0.44,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 24,
+                          "marginTop": 10,
+                          "paddingHorizontal": 15,
+                        },
+                      ]
+                    }
+                  >
+                    Selecciona uno de tus pedidos más recientes
+                  </Text>
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                            "height": 0.5,
+                          },
+                          undefined,
+                          Object {
+                            "alignSelf": "center",
+                            "height": 1,
+                            "width": "95%",
+                          },
+                        ]
+                      }
+                    />
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 4,
+                            "elevation": 4,
+                            "marginVertical": 11,
+                            "paddingTop": 10,
+                            "shadowColor": "#000",
+                            "shadowOffset": Object {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 3.84,
+                          },
+                          Object {
+                            "marginHorizontal": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "height": 130,
+                            "width": "100%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "height": "100%",
+                              "width": "90%",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "marginHorizontal": 16,
+                                "marginVertical": 10,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#000000",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 15,
+                                  "fontStyle": "normal",
+                                  "fontWeight": undefined,
+                                  "letterSpacing": 1,
+                                }
+                              }
+                            >
+                              No. Pedido: #
+                              4616004
+                            </Text>
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#979797",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 14,
+                                  "fontStyle": "normal",
+                                  "letterSpacing": 0.8,
+                                }
+                              }
+                            >
+                              Fecha: 
+                              31/08/2022
+                            </Text>
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#979797",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 14,
+                                  "fontStyle": "normal",
+                                  "letterSpacing": 0.8,
+                                }
+                              }
+                            >
+                              Estado de pago: 
+                              Pendiente
+                            </Text>
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#979797",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 14,
+                                  "fontStyle": "normal",
+                                  "letterSpacing": 0.8,
+                                }
+                              }
+                            >
+                              Artículos: 
+                              9
+                            </Text>
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#979797",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 14,
+                                  "fontStyle": "normal",
+                                  "letterSpacing": 0.8,
+                                }
+                              }
+                            >
+                              Total: 
+                              $82,58
+                            </Text>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        accessibilityLabel=""
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "alignSelf": "center",
+                            "backgroundColor": "#E31A2C",
+                            "borderRadius": 5,
+                            "justifyContent": "center",
+                            "marginBottom": 15,
+                            "opacity": 1,
+                            "paddingVertical": 10,
+                            "width": "92%",
+                          }
+                        }
+                        testID=""
+                      >
+                        <View
+                          style={
+                            Object {
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "white",
+                                  "fontFamily": undefined,
+                                  "fontSize": 14,
+                                  "fontStyle": "normal",
+                                  "fontWeight": undefined,
+                                },
+                                Object {},
+                                Object {
+                                  "letterSpacing": 0.75,
+                                  "lineHeight": 16,
+                                },
+                              ]
+                            }
+                          >
+                            SOLICITAR DEVOLUCIÓN
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </RCTScrollView>
+            </View>
+          </View>
+          <Modal
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          />
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

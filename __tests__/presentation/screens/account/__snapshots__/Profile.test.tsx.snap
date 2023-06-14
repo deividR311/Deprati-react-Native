@@ -1,0 +1,541 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTScrollView
+          contentContainerStyle={
+            Object {
+              "paddingBottom": 100,
+            }
+          }
+          style={
+            Object {
+              "paddingHorizontal": 16,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "marginHorizontal": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "#ffffff",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "marginTop": 16,
+                      "paddingBottom": 24,
+                      "paddingHorizontal": 18,
+                      "paddingVertical": 16,
+                    },
+                    Object {
+                      "elevation": 3,
+                      "shadowColor": "#000000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.23,
+                      "shadowRadius": 2.62,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {},
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.005,
+                          "lineHeight": 21,
+                          "marginBottom": 8,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    Datos de cuenta
+                  </Text>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      Nombres y apellidos: 
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 18,
+                              "width": "60%",
+                            },
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      Tipo de identificación: 
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 18,
+                              "width": "60%",
+                            },
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      Número de documento: 
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 18,
+                              "width": "60%",
+                            },
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      Correo electrónico: 
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 18,
+                              "width": "60%",
+                            },
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "#ffffff",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "marginTop": 16,
+                      "paddingBottom": 24,
+                      "paddingHorizontal": 18,
+                      "paddingVertical": 16,
+                    },
+                    Object {
+                      "elevation": 3,
+                      "shadowColor": "#000000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.23,
+                      "shadowRadius": 2.62,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {},
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.005,
+                          "lineHeight": 21,
+                          "marginBottom": 8,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    Datos personales
+                  </Text>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      Género: 
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 18,
+                              "width": "60%",
+                            },
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      País: 
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 18,
+                              "width": "60%",
+                            },
+                          ]
+                        }
+                      />
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="APP_BOTON_LABEL.updateMyData"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#E31A2C",
+                  "borderRadius": 5,
+                  "flexDirection": "row",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginTop": 25,
+                  "opacity": 1,
+                  "paddingVertical": 10,
+                }
+              }
+              testID="APP_BOTON_LABEL.updateMyData"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8,
+                      "textAlign": "center",
+                    },
+                    undefined,
+                    Object {
+                      "color": "#ffffff",
+                      "opacity": 1,
+                    },
+                  ]
+                }
+              >
+                APP_BOTON_LABEL.updateMyData
+              </Text>
+            </View>
+            <Modal
+              animationType="fade"
+              hardwareAccelerated={false}
+              onDismiss={[Function]}
+              onRequestClose={[Function]}
+              transparent={true}
+              visible={false}
+            />
+            <Modal
+              animationType="fade"
+              hardwareAccelerated={false}
+              onDismiss={[Function]}
+              transparent={true}
+              visible={false}
+            />
+            <Modal
+              animationType="fade"
+              hardwareAccelerated={false}
+              onDismiss={[Function]}
+              transparent={true}
+              visible={false}
+            />
+          </View>
+        </RCTScrollView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

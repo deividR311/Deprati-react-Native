@@ -1,0 +1,1374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dior renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "backgroundColor": "#ffffff",
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            showsVerticalScrollIndicator={false}
+            style={
+              Object {
+                "marginBottom": 86,
+                "width": "100%",
+              }
+            }
+          >
+            <View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": "auto",
+                        "marginTop": 5,
+                        "width": "100%",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Array [
+                        Object {
+                          "width": "100%",
+                        },
+                        Object {
+                          "aspectRatio": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="simple-banner"
+                  />
+                </View>
+              </View>
+              <View>
+                <RCTScrollView
+                  activeAnimationOptions={null}
+                  activeAnimationType="timing"
+                  activeSlideAlignment="center"
+                  activeSlideOffset={20}
+                  apparitionDelay={0}
+                  automaticallyAdjustContentInsets={false}
+                  autoplay={true}
+                  autoplayDelay={9000}
+                  autoplayInterval={9000}
+                  callbackOffsetMargin={5}
+                  collapsable={false}
+                  containerCustomStyle={Object {}}
+                  contentContainerCustomStyle={Object {}}
+                  contentContainerStyle={
+                    Array [
+                      Object {
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                      },
+                      Object {},
+                    ]
+                  }
+                  data={
+                    Array [
+                      Object {
+                        "container": "false",
+                        "external": "false",
+                        "media": Object {
+                          "code": "/images/banners/C_DIOR.jpg",
+                          "downloadUrl": "https://imagestg.deprati.com.ec/sys-master/images/h61/hd7/8987995865118",
+                          "mime": "image/jpeg",
+                          "url": "https://imagestg.deprati.com.ec/sys-master/images/h61/hd7/8987995865118",
+                        },
+                        "modifiedTime": "2023-04-19T13:44:59+0000",
+                        "name": "Example Banner Dior Mobile",
+                        "typeCode": "BannerComponent",
+                        "uid": "DiorBannerComponent2",
+                        "urlLink": "https://www.deprati.com.ec/sauvage-elixir-perfume-60-ml/p/738J00119000755",
+                      },
+                      Object {
+                        "autoplay": "true",
+                        "container": "false",
+                        "controls": "false",
+                        "external": "false",
+                        "height": "200",
+                        "loop": "true",
+                        "modifiedTime": "2023-04-19T13:44:59+0000",
+                        "muted": "true",
+                        "name": "BannerCarouselDiorVideo_1",
+                        "responsive": "true",
+                        "typeCode": "DepratiCloudflareVideoStreamBannerComponent",
+                        "uid": "BannerCarouselDiorVideo_1",
+                        "videoId": "b68f180d31b8ca922e663019f26b5e87",
+                        "width": "400",
+                      },
+                    ]
+                  }
+                  decelerationRate={0.9}
+                  directionalLockEnabled={true}
+                  enableMomentum={true}
+                  enableSnap={true}
+                  firstItem={0}
+                  forwardedRef={[Function]}
+                  getItem={[Function]}
+                  getItemCount={[Function]}
+                  hasParallaxImages={false}
+                  horizontal={true}
+                  inactiveSlideOpacity={0.8}
+                  inactiveSlideScale={0.9}
+                  inactiveSlideShift={0}
+                  initialNumToRender={6}
+                  invertStickyHeaders={false}
+                  inverted={false}
+                  itemWidth={750}
+                  keyExtractor={[Function]}
+                  layout="default"
+                  lockScrollTimeoutDuration={1000}
+                  lockScrollWhileSnapping={true}
+                  loop={false}
+                  loopClonesPerSide={3}
+                  maxToRenderPerBatch={13}
+                  onContentSizeChange={[Function]}
+                  onLayout={[Function]}
+                  onMomentumScrollBegin={[Function]}
+                  onMomentumScrollEnd={[Function]}
+                  onResponderRelease={[Function]}
+                  onScroll={[Function]}
+                  onScrollBeginDrag={[Function]}
+                  onScrollEndDrag={[Function]}
+                  onSnapToItem={[Function]}
+                  onStartShouldSetResponderCapture={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  overScrollMode="never"
+                  pinchGestureEnabled={false}
+                  removeClippedSubviews={false}
+                  renderItem={[Function]}
+                  scrollEnabled={true}
+                  scrollEventThrottle={1}
+                  scrollsToTop={false}
+                  shouldOptimizeUpdates={true}
+                  showsHorizontalScrollIndicator={false}
+                  showsVerticalScrollIndicator={false}
+                  slideStyle={Object {}}
+                  sliderWidth={750}
+                  stickyHeaderIndices={Array []}
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "opacity": 0,
+                      "width": 750,
+                    }
+                  }
+                  swipeThreshold={20}
+                  useScrollView={false}
+                  vertical={false}
+                  viewabilityConfigCallbackPairs={Array []}
+                  windowSize={13}
+                >
+                  <View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transform": Array [
+                              Object {
+                                "scale": 1,
+                              },
+                            ],
+                            "width": 750,
+                          }
+                        }
+                      >
+                        <View
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "aspectRatio": 1.5,
+                                  "backgroundColor": "#E6E6E6",
+                                  "height": "auto",
+                                  "marginTop": 6,
+                                  "width": "100%",
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            <Image
+                              resizeMode="contain"
+                              source={
+                                Object {
+                                  "uri": "https://imagestg.deprati.com.ec/sys-master/images/h61/hd7/8987995865118",
+                                }
+                              }
+                              style={
+                                Array [
+                                  Object {
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "aspectRatio": 1.5,
+                                  },
+                                  undefined,
+                                ]
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          Object {
+                            "opacity": 0.8,
+                            "transform": Array [
+                              Object {
+                                "scale": 0.9,
+                              },
+                            ],
+                            "width": 750,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "#ffffff",
+                                "marginTop": 16,
+                                "width": "100%",
+                              },
+                              Object {
+                                "marginTop": 8,
+                                "width": "100%",
+                              },
+                              Object {
+                                "aspectRatio": 1.5,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Video
+                              fullscreen={false}
+                              muted={true}
+                              onEnd={[Function]}
+                              poster="https://videodelivery.net/b68f180d31b8ca922e663019f26b5e87/thumbnails/thumbnail.jpg?=height=200&time=1s"
+                              posterResizeMode="cover"
+                              repeat={true}
+                              resizeMode="cover"
+                              source={
+                                Object {
+                                  "uri": "https://videodelivery.net/b68f180d31b8ca922e663019f26b5e87/manifest/video.m3u8",
+                                }
+                              }
+                              style={
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#ffffff",
+                                    "height": "100%",
+                                    "justifyContent": "center",
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </RCTScrollView>
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "bottom": -20,
+                      "position": "absolute",
+                      "zIndex": 2,
+                    }
+                  }
+                >
+                  <View
+                    accessible={false}
+                    pointerEvents="box-none"
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "paddingHorizontal": 20,
+                          "paddingVertical": 30,
+                        },
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={false}
+                      collapsable={false}
+                      focusable={false}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "flex-end",
+                          "borderColor": "#ffffff",
+                          "borderRadius": 8,
+                          "borderWidth": 1,
+                          "elevation": 0,
+                          "height": 14,
+                          "justifyContent": "center",
+                          "marginHorizontal": 8,
+                          "opacity": 1,
+                          "overflow": "hidden",
+                          "width": 14,
+                          "zIndex": 2,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 3.5,
+                            "height": 14,
+                            "opacity": 1,
+                            "transform": Array [
+                              Object {
+                                "scale": 0.000528165436889716,
+                              },
+                            ],
+                            "width": 14,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={false}
+                      collapsable={false}
+                      focusable={false}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "flex-end",
+                          "borderColor": "#ffffff",
+                          "borderRadius": 8,
+                          "borderWidth": 1,
+                          "elevation": 0,
+                          "height": 14,
+                          "justifyContent": "center",
+                          "marginHorizontal": 8,
+                          "opacity": 1,
+                          "overflow": "hidden",
+                          "width": 14,
+                          "zIndex": 2,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        style={
+                          Object {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 3.5,
+                            "height": 14,
+                            "opacity": 1,
+                            "transform": Array [
+                              Object {
+                                "scale": 0,
+                              },
+                            ],
+                            "width": 14,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 16,
+                      "paddingTop": 16,
+                      "width": "100%",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <RCTScrollView
+                  contentContainerStyle={
+                    Object {
+                      "paddingRight": 16,
+                    }
+                  }
+                  data={
+                    Array [
+                      "DiorCarouselFeatureComponent_1",
+                      "DiorCarouselFeatureComponent_2",
+                      "DiorCarouselFeatureComponent_3",
+                      "DiorCarouselFeatureComponent_4",
+                    ]
+                  }
+                  getItem={[Function]}
+                  getItemCount={[Function]}
+                  horizontal={true}
+                  keyExtractor={[Function]}
+                  onContentSizeChange={[Function]}
+                  onLayout={[Function]}
+                  onMomentumScrollBegin={[Function]}
+                  onMomentumScrollEnd={[Function]}
+                  onScroll={[Function]}
+                  onScrollBeginDrag={[Function]}
+                  onScrollEndDrag={[Function]}
+                  removeClippedSubviews={false}
+                  renderItem={[Function]}
+                  scrollEventThrottle={50}
+                  showsHorizontalScrollIndicator={false}
+                  stickyHeaderIndices={Array []}
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "paddingLeft": 16,
+                      },
+                      undefined,
+                    ]
+                  }
+                  viewabilityConfigCallbackPairs={Array []}
+                >
+                  <View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityLabel="category_main0"
+                        accessible={true}
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 4,
+                              "marginEnd": 8,
+                              "overflow": "hidden",
+                              "width": 163,
+                            },
+                          ]
+                        }
+                        testID="category_main0"
+                      >
+                        <View
+                          accessibilityLabel="category_main0"
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                            }
+                          }
+                          testID="category_main0"
+                        >
+                          <Image
+                            resizeMode="contain"
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "aspectRatio": 0.6707818930041153,
+                                },
+                                Object {
+                                  "aspectRatio": 1,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": "500",
+                                "paddingTop": 4,
+                                "textAlign": "center",
+                                "width": "100%",
+                              },
+                            ]
+                          }
+                        >
+                          CHAQUETAS
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityLabel="category_main1"
+                        accessible={true}
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 4,
+                              "marginEnd": 8,
+                              "overflow": "hidden",
+                              "width": 163,
+                            },
+                          ]
+                        }
+                        testID="category_main1"
+                      >
+                        <View
+                          accessibilityLabel="category_main1"
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                            }
+                          }
+                          testID="category_main1"
+                        >
+                          <Image
+                            resizeMode="contain"
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "aspectRatio": 0.6707818930041153,
+                                },
+                                Object {
+                                  "aspectRatio": 1,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": "500",
+                                "paddingTop": 4,
+                                "textAlign": "center",
+                                "width": "100%",
+                              },
+                            ]
+                          }
+                        >
+                          SWEATER Y PULLOVERS
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityLabel="category_main2"
+                        accessible={true}
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 4,
+                              "marginEnd": 8,
+                              "overflow": "hidden",
+                              "width": 163,
+                            },
+                          ]
+                        }
+                        testID="category_main2"
+                      >
+                        <View
+                          accessibilityLabel="category_main2"
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                            }
+                          }
+                          testID="category_main2"
+                        >
+                          <Image
+                            resizeMode="contain"
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "aspectRatio": 0.6707818930041153,
+                                },
+                                Object {
+                                  "aspectRatio": 1,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": "500",
+                                "paddingTop": 4,
+                                "textAlign": "center",
+                                "width": "100%",
+                              },
+                            ]
+                          }
+                        >
+                          SUDADERAS
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityLabel="category_main3"
+                        accessible={true}
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 4,
+                              "marginEnd": 8,
+                              "overflow": "hidden",
+                              "width": 163,
+                            },
+                          ]
+                        }
+                        testID="category_main3"
+                      >
+                        <View
+                          accessibilityLabel="category_main3"
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                            }
+                          }
+                          testID="category_main3"
+                        >
+                          <Image
+                            resizeMode="contain"
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "aspectRatio": 0.6707818930041153,
+                                },
+                                Object {
+                                  "aspectRatio": 1,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": "500",
+                                "paddingTop": 4,
+                                "textAlign": "center",
+                                "width": "100%",
+                              },
+                            ]
+                          }
+                        >
+                          CÁRDIGANS
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </RCTScrollView>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 10,
+                      "marginLeft": 16,
+                      "marginTop": 16,
+                      "width": "100%",
+                    },
+                    Object {
+                      "marginLeft": 0,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                        "height": 0.5,
+                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "height": 0,
+                        },
+                        Object {
+                          "alignSelf": "center",
+                          "height": 1,
+                          "width": "80%",
+                        },
+                      ],
+                    ]
+                  }
+                />
+                <RCTScrollView
+                  activeAnimationOptions={null}
+                  activeAnimationType="timing"
+                  activeSlideAlignment="center"
+                  activeSlideOffset={20}
+                  apparitionDelay={0}
+                  automaticallyAdjustContentInsets={false}
+                  autoplay={false}
+                  autoplayDelay={1000}
+                  autoplayInterval={3000}
+                  callbackOffsetMargin={5}
+                  collapsable={false}
+                  containerCustomStyle={Object {}}
+                  contentContainerCustomStyle={
+                    Object {
+                      "paddingLeft": 0,
+                    }
+                  }
+                  contentContainerStyle={
+                    Array [
+                      Object {
+                        "paddingLeft": 75,
+                        "paddingRight": 75,
+                      },
+                      Object {
+                        "paddingLeft": 0,
+                      },
+                    ]
+                  }
+                  data={
+                    Array [
+                      Object {
+                        "childrenComponents": Object {},
+                        "childrenComponentsList": null,
+                        "container": "false",
+                        "media": Object {
+                          "format": "mobile",
+                          "imageType": "GALLERY",
+                          "url": "https://imagestg.deprati.com.ec/sys-master/images/h28/hd0/8987754496030/E1_DIOR.jpg",
+                          "width": "480",
+                        },
+                        "modifiedTime": "2023-04-19T13:45:01+0000",
+                        "name": "SimpleResponsiveBannerComponent",
+                        "typeCode": "SimpleResponsiveBannerComponent",
+                        "uid": "DiorBannerContainer1",
+                        "urlLink": "/p/738J00119000783",
+                      },
+                    ]
+                  }
+                  decelerationRate="fast"
+                  directionalLockEnabled={true}
+                  enableMomentum={false}
+                  enableSnap={true}
+                  firstItem={0}
+                  forwardedRef={[Function]}
+                  getItem={[Function]}
+                  getItemCount={[Function]}
+                  hasParallaxImages={false}
+                  horizontal={true}
+                  inactiveSlideOpacity={0.7}
+                  inactiveSlideScale={0.9}
+                  inactiveSlideShift={0}
+                  initialNumToRender={7}
+                  invertStickyHeaders={false}
+                  inverted={false}
+                  itemWidth={600}
+                  keyExtractor={[Function]}
+                  layout="default"
+                  lockScrollTimeoutDuration={1000}
+                  lockScrollWhileSnapping={false}
+                  loop={false}
+                  loopClonesPerSide={3}
+                  maxToRenderPerBatch={15}
+                  onContentSizeChange={[Function]}
+                  onLayout={[Function]}
+                  onMomentumScrollBegin={[Function]}
+                  onMomentumScrollEnd={[Function]}
+                  onResponderRelease={[Function]}
+                  onScroll={[Function]}
+                  onScrollBeginDrag={[Function]}
+                  onScrollEndDrag={[Function]}
+                  onStartShouldSetResponderCapture={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  overScrollMode="never"
+                  pinchGestureEnabled={false}
+                  removeClippedSubviews={true}
+                  renderItem={[Function]}
+                  scrollEnabled={true}
+                  scrollEventThrottle={1}
+                  scrollsToTop={false}
+                  shouldOptimizeUpdates={true}
+                  showsHorizontalScrollIndicator={false}
+                  showsVerticalScrollIndicator={false}
+                  slideStyle={Object {}}
+                  sliderWidth={750}
+                  stickyHeaderIndices={Array []}
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "opacity": 0,
+                      "width": 750,
+                    }
+                  }
+                  swipeThreshold={20}
+                  useScrollView={false}
+                  vertical={false}
+                  viewabilityConfigCallbackPairs={Array []}
+                  windowSize={15}
+                >
+                  <View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transform": Array [
+                              Object {
+                                "scale": 1,
+                              },
+                            ],
+                            "width": 600,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "height": "100%",
+                                "marginTop": 16,
+                                "width": "100%",
+                              },
+                              Object {
+                                "height": 116,
+                              },
+                              Array [
+                                Object {
+                                  "backgroundColor": "#ffffff",
+                                  "borderRadius": 4,
+                                  "marginLeft": 2,
+                                  "overflow": "hidden",
+                                  "width": "100%",
+                                },
+                                Object {
+                                  "marginLeft": 16,
+                                },
+                              ],
+                            ]
+                          }
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={
+                                Object {
+                                  "uri": "https://imagestg.deprati.com.ec/sys-master/images/h28/hd0/8987754496030/E1_DIOR.jpg",
+                                }
+                              }
+                              style={
+                                Array [
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </RCTScrollView>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                        "height": 0.5,
+                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "height": 0,
+                        },
+                        Object {
+                          "alignSelf": "center",
+                          "height": 1,
+                          "marginTop": 16,
+                          "width": "80%",
+                        },
+                      ],
+                    ]
+                  }
+                />
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": "auto",
+                        "marginTop": 5,
+                        "width": "100%",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Array [
+                        Object {
+                          "width": "100%",
+                        },
+                        Object {
+                          "aspectRatio": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="simple-banner"
+                  />
+                </View>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": "auto",
+                        "marginTop": 5,
+                        "width": "100%",
+                      },
+                      Object {
+                        "marginTop": 16,
+                      },
+                    ]
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Array [
+                        Object {
+                          "width": "100%",
+                        },
+                        Object {
+                          "aspectRatio": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="simple-banner"
+                  />
+                </View>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": "auto",
+                        "marginTop": 5,
+                        "width": "100%",
+                      },
+                      Object {
+                        "marginTop": 24,
+                      },
+                    ]
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Array [
+                        Object {
+                          "width": "100%",
+                        },
+                        Object {
+                          "aspectRatio": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="simple-banner"
+                  />
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

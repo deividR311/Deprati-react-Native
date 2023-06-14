@@ -1,0 +1,467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuccessPaymentBottomSheet renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          onDismiss={[Function]}
+          onRequestClose={[Function]}
+          transparent={true}
+          visible={true}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.2)",
+                "flex": 1,
+                "justifyContent": "flex-end",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              />
+            </View>
+            <View
+              onLayout={[Function]}
+            >
+              <View
+                collapsable={false}
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderTopLeftRadius": 13,
+                    "borderTopRightRadius": 13,
+                    "elevation": 24,
+                    "height": 1267.3,
+                    "overflow": "hidden",
+                    "shadowColor": "#000",
+                    "shadowOffset": Object {
+                      "height": 12,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.58,
+                    "shadowRadius": 16,
+                    "transform": Array [
+                      Object {
+                        "translateY": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "justifyContent": "flex-end",
+                      "paddingBottom": 11,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel="close_modal"
+                    accessibilityRole="button"
+                    accessibilityState={Object {}}
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#E6E6E6",
+                        "borderRadius": 4,
+                        "height": 28,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 28,
+                      }
+                    }
+                    testID="close_modal"
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontSize": 18,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+                <RCTScrollView
+                  contentContainerStyle={Object {}}
+                  style={
+                    Array [
+                      Object {
+                        "paddingHorizontal": 0,
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "justifyContent": "center",
+                          "paddingHorizontal": 30,
+                          "paddingTop": 0,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00CF14",
+                              "fontSize": 80,
+                            },
+                            Object {
+                              "color": "#00CF14",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "fontFamily": "Roboto-Medium",
+                              "fontSize": 20,
+                              "fontWeight": "500",
+                              "letterSpacing": 0.15,
+                              "lineHeight": 28,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "marginBottom": 5,
+                              "marginTop": 41,
+                            },
+                          ]
+                        }
+                      >
+                        ¡Tu compra ha sido 
+                        
+
+                        procesada con éxito!
+                      </Text>
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 16,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0.44,
+                              "lineHeight": 24,
+                            },
+                            Object {
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "color": "#E31A2C",
+                            },
+                          ]
+                        }
+                      >
+                        Número de ticket #
+                        Número de ticket #477987
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "backgroundColor": "#F2F0F2",
+                            "elevation": 4,
+                            "marginVertical": 15,
+                            "paddingHorizontal": 17,
+                            "paddingVertical": 13,
+                            "width": "100%",
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Regular",
+                                "fontSize": 16,
+                                "fontStyle": "normal",
+                                "fontWeight": "400",
+                                "letterSpacing": 0.44,
+                                "lineHeight": 24,
+                              },
+                              Object {
+                                "textAlign": "center",
+                              },
+                            ]
+                          }
+                        >
+                          Recibirás un correo electrónico, con la 
+                          
+
+                          información de tu compra.
+                          
+
+
+                          Sigue disfrutando lo mejor en Moda, 
+                          
+
+                          Hogar y Tecnología que tenemos
+                          
+
+                          en nuestra App De Prati!
+                        </Text>
+                      </View>
+                      <View
+                        accessibilityLabel="SEGUIR COMPRANDO"
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#E31A2C",
+                            "borderRadius": 5,
+                            "flexDirection": "row",
+                            "height": 40,
+                            "justifyContent": "center",
+                            "marginTop": 14,
+                            "opacity": 1,
+                            "paddingVertical": 10,
+                            "width": "95%",
+                          }
+                        }
+                        testID="SEGUIR COMPRANDO"
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Regular",
+                                "fontSize": 14,
+                                "fontWeight": "700",
+                                "letterSpacing": 0.8,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "marginHorizontal": 10,
+                              },
+                              Object {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                              },
+                            ]
+                          }
+                        >
+                          SEGUIR COMPRANDO
+                        </Text>
+                      </View>
+                      <View
+                        accessibilityLabel="VER DETALLE DE LA COMPRA"
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#979797",
+                            "borderRadius": 5,
+                            "flexDirection": "row",
+                            "height": 40,
+                            "justifyContent": "center",
+                            "marginTop": 14,
+                            "opacity": 1,
+                            "paddingVertical": 10,
+                            "width": "95%",
+                          }
+                        }
+                        testID="VER DETALLE DE LA COMPRA"
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Regular",
+                                "fontSize": 14,
+                                "fontWeight": "700",
+                                "letterSpacing": 0.8,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "marginHorizontal": 10,
+                              },
+                              Object {
+                                "color": "#263238",
+                                "opacity": 1,
+                              },
+                            ]
+                          }
+                        >
+                          VER DETALLE DE LA COMPRA
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </RCTScrollView>
+              </View>
+            </View>
+          </View>
+        </Modal>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

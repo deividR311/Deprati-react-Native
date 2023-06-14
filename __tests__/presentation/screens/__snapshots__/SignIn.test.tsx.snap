@@ -1,0 +1,970 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTScrollView
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "marginHorizontal": 50,
+                    "marginTop": -12,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#26323880",
+                    "fontFamily": "Roboto-Regular",
+                    "fontSize": 14,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Iniciar sesión con
+              </Text>
+              <View
+                accessible={true}
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "borderRadius": 4,
+                    "flexDirection": "row",
+                    "marginTop": 12,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "borderColor": "#D3D3D3",
+                      "borderRadius": 4,
+                      "borderWidth": 1,
+                      "marginHorizontal": 8,
+                      "opacity": 1,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    }
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={23}
+                    bbWidth={22}
+                    fill="none"
+                    focusable={false}
+                    height={23}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        Object {
+                          "flex": 0,
+                          "height": 23,
+                          "width": 22,
+                        },
+                      ]
+                    }
+                    vbHeight={21}
+                    vbWidth={11}
+                    width={22}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M6.808 20.784H2.49V10.49H.333V6.958H2.49V4.84c0-2.887 1.222-4.598 4.679-4.598h2.882v3.531H8.253c-1.349 0-1.437.494-1.437 1.412v1.766h3.266l-.383 3.538h-2.89v10.295z"
+                        fill={4278190080}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                </View>
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "borderColor": "#D3D3D3",
+                      "borderRadius": 4,
+                      "borderWidth": 1,
+                      "marginHorizontal": 8,
+                      "opacity": 1,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    }
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={23}
+                    bbWidth={22}
+                    fill="none"
+                    focusable={false}
+                    height={23}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        Object {
+                          "flex": 0,
+                          "height": 23,
+                          "width": 22,
+                        },
+                      ]
+                    }
+                    vbHeight={23}
+                    vbWidth={22}
+                    width={22}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M1.502 6.322a9.208 9.208 0 011.8-2.584 10.792 10.792 0 0114.896-.8c.168.144.208.224 0 .4-.912.888-1.8 1.792-2.696 2.688-.096.088-.16.2-.32.056a6.208 6.208 0 00-8.36.184 6.928 6.928 0 00-1.8 2.744 6.832 6.832 0 000 4.232c.307.826.76 1.59 1.336 2.256a6.352 6.352 0 005.672 2.168 6.857 6.857 0 002.88-.992 5.6 5.6 0 001.688-2c.148-.327.271-.664.368-1.008.072-.232.048-.328-.248-.32H11.51c-.368 0-.368 0-.368-.384V9.41c0-.224 0-.312.296-.312h9.656c.168 0 .28 0 .312.224a11.896 11.896 0 01-1.392 8 8.16 8.16 0 01-1.672 2.032 9.072 9.072 0 01-4.056 2.216 10.927 10.927 0 01-9.92-2 10.065 10.065 0 01-2.864-3.576 9.936 9.936 0 01-1.064-3.416 10.744 10.744 0 01.872-5.976c.048-.104.104-.2.16-.304"
+                        fill={4278190080}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                </View>
+              </View>
+              <View
+                accessibilityLabel="iniciar_sesion_email"
+                accessible={true}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginTop": 30,
+                    }
+                  }
+                >
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 6,
+                        },
+                        Object {
+                          "backgroundColor": "#ffffff",
+                          "borderColor": "#979797",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                        },
+                      ]
+                    }
+                    testID="text-input-outline"
+                  />
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                          Object {
+                            "minHeight": 64,
+                            "paddingTop": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="none"
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "opacity": 1,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                            ],
+                            "zIndex": 3,
+                          }
+                        }
+                      >
+                        <View
+                          collapsable={false}
+                          pointerEvents="none"
+                          style={
+                            Object {
+                              "backgroundColor": "#ffffff",
+                              "bottom": 4,
+                              "left": 10,
+                              "maxHeight": 2,
+                              "opacity": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 6,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                              ],
+                              "width": 12,
+                            }
+                          }
+                        />
+                        <Text
+                          collapsable={false}
+                          maxFontSizeMultiplier={1.5}
+                          numberOfLines={1}
+                          style={
+                            Object {
+                              "backgroundColor": "#ffffff",
+                              "color": "transparent",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "left": 18,
+                              "maxWidth": -28,
+                              "opacity": 0,
+                              "paddingHorizontal": 0,
+                              "position": "absolute",
+                              "textAlign": "left",
+                              "top": 37,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                                Object {
+                                  "translateY": 0,
+                                },
+                                Object {
+                                  "scale": 1,
+                                },
+                                Object {
+                                  "scaleY": 1,
+                                },
+                              ],
+                              "writingDirection": "ltr",
+                            }
+                          }
+                        >
+                          Correo electrónico
+                        </Text>
+                        <Text
+                          collapsable={false}
+                          maxFontSizeMultiplier={1.5}
+                          numberOfLines={1}
+                          onLayout={[Function]}
+                          style={
+                            Object {
+                              "color": "#263238",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "left": 0,
+                              "opacity": 0,
+                              "paddingHorizontal": 14,
+                              "position": "absolute",
+                              "textAlign": "left",
+                              "top": 36,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                                Object {
+                                  "translateY": 0,
+                                },
+                                Object {
+                                  "scale": 1,
+                                },
+                              ],
+                              "writingDirection": "ltr",
+                            }
+                          }
+                        >
+                          Correo electrónico
+                        </Text>
+                        <Text
+                          collapsable={false}
+                          maxFontSizeMultiplier={1.5}
+                          numberOfLines={1}
+                          style={
+                            Object {
+                              "color": "rgba(0, 0, 0, 0.54)",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "left": 0,
+                              "opacity": 0,
+                              "paddingHorizontal": 14,
+                              "position": "absolute",
+                              "textAlign": "left",
+                              "top": 36,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                                Object {
+                                  "translateY": 0,
+                                },
+                                Object {
+                                  "scale": 1,
+                                },
+                              ],
+                              "writingDirection": "ltr",
+                            }
+                          }
+                        >
+                          Correo electrónico
+                        </Text>
+                      </View>
+                      <TextInput
+                        autoCapitalize="none"
+                        autoComplete="off"
+                        autoCorrect={false}
+                        blurOnSubmit={true}
+                        editable={true}
+                        keyboardType="email-address"
+                        maxFontSizeMultiplier={1.5}
+                        multiline={false}
+                        onBlur={[Function]}
+                        onChangeText={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        placeholderTextColor="#979797"
+                        selectionColor="#979797"
+                        style={
+                          Array [
+                            Object {
+                              "flexGrow": 1,
+                              "margin": 0,
+                              "paddingHorizontal": 14,
+                              "zIndex": 1,
+                            },
+                            Object {
+                              "height": 56,
+                            },
+                            Object {
+                              "paddingBottom": 0,
+                              "paddingTop": 0,
+                            },
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "textAlign": "left",
+                              "textAlignVertical": "center",
+                            },
+                            false,
+                            Array [
+                              Object {},
+                            ],
+                          ]
+                        }
+                        testID="iniciar_sesion_email"
+                        textContentType="username"
+                        underlineColorAndroid="transparent"
+                        value=""
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessibilityLabel="iniciar_sesion_password"
+                accessible={true}
+              >
+                <View
+                  style={
+                    Object {
+                      "borderRadius": 4,
+                      "marginTop": 20,
+                    }
+                  }
+                >
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 6,
+                        },
+                        Object {
+                          "backgroundColor": "#ffffff",
+                          "borderColor": "#979797",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                        },
+                      ]
+                    }
+                    testID="text-input-outline"
+                  />
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                          Object {
+                            "minHeight": 64,
+                            "paddingTop": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="none"
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "opacity": 1,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                            ],
+                            "zIndex": 3,
+                          }
+                        }
+                      >
+                        <View
+                          collapsable={false}
+                          pointerEvents="none"
+                          style={
+                            Object {
+                              "backgroundColor": "#ffffff",
+                              "bottom": 4,
+                              "left": 10,
+                              "maxHeight": 2,
+                              "opacity": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 6,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                              ],
+                              "width": 12,
+                            }
+                          }
+                        />
+                        <Text
+                          collapsable={false}
+                          maxFontSizeMultiplier={1.5}
+                          numberOfLines={1}
+                          style={
+                            Object {
+                              "backgroundColor": "#ffffff",
+                              "color": "transparent",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "left": 18,
+                              "maxWidth": -28,
+                              "opacity": 0,
+                              "paddingHorizontal": 0,
+                              "position": "absolute",
+                              "textAlign": "left",
+                              "top": 37,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                                Object {
+                                  "translateY": 0,
+                                },
+                                Object {
+                                  "scale": 1,
+                                },
+                                Object {
+                                  "scaleY": 1,
+                                },
+                              ],
+                              "writingDirection": "ltr",
+                            }
+                          }
+                        >
+                          Contraseña
+                        </Text>
+                        <Text
+                          collapsable={false}
+                          maxFontSizeMultiplier={1.5}
+                          numberOfLines={1}
+                          onLayout={[Function]}
+                          style={
+                            Object {
+                              "color": "#263238",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "left": 0,
+                              "opacity": 0,
+                              "paddingHorizontal": 14,
+                              "position": "absolute",
+                              "textAlign": "left",
+                              "top": 36,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                                Object {
+                                  "translateY": 0,
+                                },
+                                Object {
+                                  "scale": 1,
+                                },
+                              ],
+                              "writingDirection": "ltr",
+                            }
+                          }
+                        >
+                          Contraseña
+                        </Text>
+                        <Text
+                          collapsable={false}
+                          maxFontSizeMultiplier={1.5}
+                          numberOfLines={1}
+                          style={
+                            Object {
+                              "color": "rgba(0, 0, 0, 0.54)",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "left": 0,
+                              "opacity": 0,
+                              "paddingHorizontal": 14,
+                              "position": "absolute",
+                              "textAlign": "left",
+                              "top": 36,
+                              "transform": Array [
+                                Object {
+                                  "translateX": 0,
+                                },
+                                Object {
+                                  "translateY": 0,
+                                },
+                                Object {
+                                  "scale": 1,
+                                },
+                              ],
+                              "writingDirection": "ltr",
+                            }
+                          }
+                        >
+                          Contraseña
+                        </Text>
+                      </View>
+                      <TextInput
+                        accessibilityLabel="iniciar_sesion_password"
+                        accessible={true}
+                        blurOnSubmit={true}
+                        editable={true}
+                        isVisible={true}
+                        maxFontSizeMultiplier={1.5}
+                        multiline={false}
+                        nativeID="iniciar_sesion_password"
+                        onBlur={[Function]}
+                        onChangeText={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        placeholderTextColor="#979797"
+                        secureTextEntry={true}
+                        selectionColor="#263238"
+                        style={
+                          Array [
+                            Object {
+                              "flexGrow": 1,
+                              "margin": 0,
+                              "paddingHorizontal": 14,
+                              "zIndex": 1,
+                            },
+                            Object {
+                              "height": 56,
+                            },
+                            Object {
+                              "paddingBottom": 0,
+                              "paddingTop": 0,
+                            },
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                              "fontWeight": undefined,
+                              "textAlign": "left",
+                              "textAlignVertical": "center",
+                            },
+                            false,
+                            Object {
+                              "marginRight": 44,
+                              "paddingRight": 0,
+                            },
+                          ]
+                        }
+                        testID="iniciar_sesion_password"
+                        textContentType="password"
+                        underlineColorAndroid="transparent"
+                        value=""
+                      />
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "height": 24,
+                            "justifyContent": "center",
+                            "position": "absolute",
+                            "width": 24,
+                          },
+                          Object {
+                            "right": 12,
+                            "top": 23,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 18,
+                                "height": 36,
+                                "width": 36,
+                              },
+                              undefined,
+                              Object {
+                                "margin": 0,
+                              },
+                            ],
+                          ]
+                        }
+                      >
+                        <View>
+                          <View>
+                            <RNSVGSvgView
+                              align="xMidYMid"
+                              bbHeight={32}
+                              bbWidth={24}
+                              fill="none"
+                              focusable={false}
+                              height={32}
+                              meetOrSlice={0}
+                              minX={0}
+                              minY={0}
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "borderWidth": 0,
+                                  },
+                                  Object {
+                                    "flex": 0,
+                                    "height": 32,
+                                    "width": 24,
+                                  },
+                                ]
+                              }
+                              vbHeight={32}
+                              vbWidth={24}
+                              width={24}
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <RNSVGGroup
+                                fill={null}
+                                propList={
+                                  Array [
+                                    "fill",
+                                  ]
+                                }
+                              >
+                                <RNSVGPath
+                                  clipRule={0}
+                                  d="M12 8.5c-5 0-9.27 3.11-11 7.5 1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 21c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm-3-5c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3z"
+                                  fill={4288124823}
+                                  fillRule={0}
+                                  propList={
+                                    Array [
+                                      "fill",
+                                      "fillRule",
+                                    ]
+                                  }
+                                />
+                              </RNSVGGroup>
+                            </RNSVGSvgView>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessibilityLabel="iniciar_sesion_button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#D3D3D3",
+                    "borderRadius": 5,
+                    "flexDirection": "row",
+                    "height": 40,
+                    "justifyContent": "center",
+                    "marginTop": 25,
+                    "opacity": 1,
+                    "paddingVertical": 10,
+                  }
+                }
+                testID="iniciar_sesion_button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 14,
+                        "fontWeight": "700",
+                        "letterSpacing": 0.8,
+                        "textAlign": "center",
+                      },
+                      undefined,
+                      Object {
+                        "color": "#ffffff",
+                        "opacity": 0.5,
+                      },
+                    ]
+                  }
+                >
+                  INICIAR SESIÓN
+                </Text>
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "height": 0,
+                }
+              }
+            />
+            <Modal
+              animationType="fade"
+              hardwareAccelerated={false}
+              onDismiss={[Function]}
+              transparent={true}
+              visible={false}
+            />
+            <Modal
+              animationType="fade"
+              hardwareAccelerated={false}
+              onDismiss={[Function]}
+              transparent={true}
+              visible={false}
+            />
+          </View>
+        </RCTScrollView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

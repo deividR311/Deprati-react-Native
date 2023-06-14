@@ -1,0 +1,4 @@
+export enum ORIGINS {
+  FAVORITE = 'FAVORITE',
+  MY_ORDER = 'MY_ORDER'
+}

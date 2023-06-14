@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1047450819403",
+    "project_id": "deprati-signin-stg",
+    "storage_bucket": "deprati-signin-stg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047450819403:android:58831edc728c6a1c1d26ce",
+        "android_client_info": {
+          "package_name": "com.deprati.appv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047450819403-cpffnsbjr2srl36pf68c5j3pl3beqnmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqSWdwU4WL2J5nknHYVSgSht57On3CN8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047450819403-cpffnsbjr2srl36pf68c5j3pl3beqnmo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1047450819403-cj569flthm2kjak7eumom8v929g0sol8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deprati.appv21",
+                "app_store_id": "1620206104"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

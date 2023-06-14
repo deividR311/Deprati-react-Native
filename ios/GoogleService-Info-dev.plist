@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>232635688972-s2iqt4cs9rqj4duvjh5b50hkjuluuvak.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.232635688972-s2iqt4cs9rqj4duvjh5b50hkjuluuvak</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>232635688972-ss6b08h50f0t5p0b4c65hr5mc44e0haq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCa-gZOif9J6xD_vgWIphLo2UV899XG9lc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>232635688972</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.deprati.appv21</string>
+	<key>PROJECT_ID</key>
+	<string>hybris-344319</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hybris-344319.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<false/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:232635688972:ios:9cb2a10244720897d9a629</string>
+</dict>
+</plist>

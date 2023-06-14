@@ -1,0 +1,3427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View BigPhoto renders correctly in Snapshot View BigPhoto 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTScrollView
+          ItemSeparatorComponent={[Function]}
+          ListFooterComponent={<React.Fragment />}
+          data={
+            Array [
+              Object {
+                "availableForPickup": false,
+                "baseProduct": "225A00173002201",
+                "code": "225A00173002201012",
+                "description": "<p>El diseño más lindo para la hermanita más chiquita.</p> <p>Detalles:</p> <ul> <li>Camiseta Baby Kiddo</li> <li>Diseño en azul cielo</li> <li>Modelo estampado con la frase \\\\\\"Little Sister\\\\\\"</li> <li>Manga corta</li> <li>Cuello redondo</li> <li>Elaborado en 100 por ciento algodón</li> <li>Para niñas de 1 a 3 años aprox.</li> </ul>",
+                "ean": "15366491",
+                "images": Array [
+                  Object {
+                    "altText": "BLUSA TIRAS CON VUE",
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hb6/h71/8891489943582/15366491-0_product_96Wx144H",
+                  },
+                  Object {
+                    "altText": "BLUSA TIRAS CON VUE",
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hc7/h74/8891489878046/15366491-0_product_300Wx450H",
+                  },
+                ],
+                "installmentCreditoDirecto": "",
+                "name": "BLUSA TIRAS CON VUE",
+                "previousPrice": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$35,99",
+                  "priceType": "BUY",
+                  "value": 35.985600000000005,
+                },
+                "price": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$3,60",
+                  "priceType": "BUY",
+                  "value": 3.5951999999999997,
+                },
+                "priceRange": Object {},
+                "stock": Object {
+                  "stockLevelStatus": "inStock",
+                },
+                "url": "/blusa-tiras-con-vue/p/225A00173002201012",
+                "variantColorImages": Array [
+                  "https://imagestg.deprati.com.ec/sys-master/images/h44/h7f/8891489550366/15366487_color.jpg",
+                ],
+                "volumePricesFlag": false,
+              },
+              Object {
+                "availableForPickup": false,
+                "baseProduct": "225A00173002195",
+                "code": "225A00173002195009",
+                "description": "<p>El diseño más lindo para la hermanita más chiquita.</p> <p>Detalles:</p> <ul> <li>Camiseta Baby Kiddo</li> <li>Diseño en azul cielo</li> <li>Modelo estampado con la frase \\\\\\"Little Sister\\\\\\"</li> <li>Manga corta</li> <li>Cuello redondo</li> <li>Elaborado en 100 por ciento algodón</li> <li>Para niñas de 1 a 3 años aprox.</li> </ul>",
+                "ean": "15307883",
+                "images": Array [
+                  Object {
+                    "altText": "BLUSA ONE SHOULDER",
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hf5/hfb/8891001110558/15307883-0_product_96Wx144H",
+                  },
+                  Object {
+                    "altText": "BLUSA ONE SHOULDER",
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h06/hff/8891001045022/15307883-0_product_300Wx450H",
+                  },
+                ],
+                "installmentCreditoDirecto": "",
+                "name": "BLUSA ONE SHOULDER",
+                "previousPrice": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$35,99",
+                  "priceType": "BUY",
+                  "value": 35.985600000000005,
+                },
+                "price": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$3,60",
+                  "priceType": "BUY",
+                  "value": 3.5951999999999997,
+                },
+                "priceRange": Object {},
+                "stock": Object {
+                  "stockLevelStatus": "inStock",
+                },
+                "url": "/Medias-ho-rosadas/p/225A00173002195009",
+                "variantColorImages": Array [
+                  "https://imagestg.deprati.com.ec/sys-master/images/h12/h81/8891002617886/15307881_color.jpg",
+                ],
+                "volumePricesFlag": false,
+              },
+              Object {
+                "availableForPickup": false,
+                "baseProduct": "225A00173002196",
+                "code": "225A00173002196007",
+                "description": "<p>El diseño más lindo para la hermanita más chiquita.</p> <p>Detalles:</p> <ul> <li>Camiseta Baby Kiddo</li> <li>Diseño en azul cielo</li> <li>Modelo estampado con la frase \\\\\\"Little Sister\\\\\\"</li> <li>Manga corta</li> <li>Cuello redondo</li> <li>Elaborado en 100 por ciento algodón</li> <li>Para niñas de 1 a 3 años aprox.</li> </ul>",
+                "ean": "15307895",
+                "images": Array [
+                  Object {
+                    "altText": "BLUSA VUELOS UNICOL",
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hfb/h8a/8891010482206/15307895-0_product_96Wx144H",
+                  },
+                  Object {
+                    "altText": "BLUSA VUELOS UNICOL",
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hbd/h8b/8891010416670/15307895-0_product_300Wx450H",
+                  },
+                ],
+                "installmentCreditoDirecto": "",
+                "name": "BLUSA VUELOS UNICOL",
+                "previousPrice": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$35,99",
+                  "priceType": "BUY",
+                  "value": 35.985600000000005,
+                },
+                "price": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$3,60",
+                  "priceType": "BUY",
+                  "value": 3.5951999999999997,
+                },
+                "priceRange": Object {},
+                "stock": Object {
+                  "stockLevelStatus": "inStock",
+                },
+                "url": "/blusa-vuelos-unicol/p/225A00173002196007",
+                "variantColorImages": Array [
+                  "https://imagestg.deprati.com.ec/sys-master/images/hcf/h73/8891015626782/15307894_color.jpg",
+                  "https://imagestg.deprati.com.ec/sys-master/images/h9b/h72/8891007598622/15307890_color.jpg",
+                ],
+                "volumePricesFlag": false,
+              },
+              Object {
+                "availableForPickup": false,
+                "baseProduct": "225A00173002197",
+                "code": "225A00173002197004",
+                "description": "<p>El diseño más lindo para la hermanita más chiquita.</p> <p>Detalles:</p> <ul> <li>Camiseta Baby Kiddo</li> <li>Diseño en azul cielo</li> <li>Modelo estampado con la frase \\\\\\"Little Sister\\\\\\"</li> <li>Manga corta</li> <li>Cuello redondo</li> <li>Elaborado en 100 por ciento algodón</li> <li>Para niñas de 1 a 3 años aprox.</li> </ul>",
+                "ean": "15307906",
+                "images": Array [
+                  Object {
+                    "altText": "BLUSA HALTER ESTAMP",
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h85/haa/8891021328414/15307906-0_product_96Wx144H",
+                  },
+                  Object {
+                    "altText": "BLUSA HALTER ESTAMP",
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h87/ha7/8891021262878/15307906-0_product_300Wx450H",
+                  },
+                ],
+                "installmentCreditoDirecto": "",
+                "name": "BLUSA HALTER ESTAMP",
+                "previousPrice": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$35,99",
+                  "priceType": "BUY",
+                  "value": 35.985600000000005,
+                },
+                "price": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$3,60",
+                  "priceType": "BUY",
+                  "value": 3.5951999999999997,
+                },
+                "priceRange": Object {},
+                "stock": Object {
+                  "stockLevelStatus": "inStock",
+                },
+                "url": "/blusa-halter-estamp/p/225A00173002197004",
+                "variantColorImages": Array [
+                  "https://imagestg.deprati.com.ec/sys-master/images/h42/hde/8891022704670/15307903_color.jpg",
+                ],
+                "volumePricesFlag": false,
+              },
+              Object {
+                "availableForPickup": false,
+                "baseProduct": "225A00173002152",
+                "code": "225A00173002152003",
+                "description": "<p>El diseño más lindo para la hermanita más chiquita.</p> <p>Detalles:</p> <ul> <li>Camiseta Baby Kiddo</li> <li>Diseño en azul cielo</li> <li>Modelo estampado con la frase \\\\\\"Little Sister\\\\\\"</li> <li>Manga corta</li> <li>Cuello redondo</li> <li>Elaborado en 100 por ciento algodón</li> <li>Para niñas de 1 a 3 años aprox.</li> </ul>",
+                "ean": "15291417",
+                "images": Array [
+                  Object {
+                    "altText": "BLUSA TIPO CAMISERO",
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h65/h73/8890901299230/15291417-0_product_96Wx144H",
+                  },
+                  Object {
+                    "altText": "BLUSA TIPO CAMISERO",
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h13/h74/8890901233694/15291417-0_product_300Wx450H",
+                  },
+                ],
+                "installmentCreditoDirecto": "",
+                "name": "BLUSA TIPO CAMISERO",
+                "previousPrice": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$39,98",
+                  "priceType": "BUY",
+                  "value": 39.98400000000001,
+                },
+                "price": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$4,00",
+                  "priceType": "BUY",
+                  "value": 3.9983999999999997,
+                },
+                "priceRange": Object {},
+                "stock": Object {
+                  "stockLevelStatus": "inStock",
+                },
+                "url": "/blusa-tipo-camisero/p/225A00173002152003",
+                "variantColorImages": Array [
+                  "https://imagestg.deprati.com.ec/sys-master/images/h01/hd4/8890904576030/15291416_color.jpg",
+                ],
+                "volumePricesFlag": false,
+              },
+              Object {
+                "availableForPickup": false,
+                "averageRating": 4,
+                "baseProduct": "226A00236318064",
+                "code": "226A00236318064019",
+                "description": "<p>Un look fresco y relajado que hará que te veas fabulosa.</p> <p>Detalles:</p> <ul> <li>Blusa Amanda</li> <li>Diseño en azul combinado</li> <li>Modelo con amarre en pecho</li> <li>Manga tres cuartos</li> <li>Elaborado en 100 por ciento algodón</li> </ul> <p>Estilo Clásico</p>",
+                "ean": "14856308",
+                "images": Array [
+                  Object {
+                    "altText": "Blusa Amanda con amarre",
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/hd0/h62/8821513781278/14856308-0_product_96Wx144H",
+                  },
+                  Object {
+                    "altText": "Blusa Amanda con amarre",
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://imagestg.deprati.com.ec/sys-master/images/h0e/h62/8821513715742/14856308-0_product_300Wx450H",
+                  },
+                ],
+                "installmentCreditoDirecto": "",
+                "name": "Blusa Amanda con amarre",
+                "previousPrice": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$29,99",
+                  "priceType": "BUY",
+                  "value": 29.9936,
+                },
+                "price": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$3,00",
+                  "priceType": "BUY",
+                  "value": 3.0016000000000003,
+                },
+                "priceRange": Object {},
+                "stock": Object {
+                  "stockLevel": 4,
+                  "stockLevelStatus": "lowStock",
+                },
+                "url": "/blusa-amanda-con-amarre/p/226A00236318064019",
+                "variantColorImages": Array [
+                  "https://imagestg.deprati.com.ec/sys-master/images/h27/h78/8868765237278/14919116_color.jpg",
+                  "https://imagestg.deprati.com.ec/sys-master/images/h8d/h69/8821513977886/14856309_color.jpg",
+                  "https://imagestg.deprati.com.ec/sys-master/images/h31/hb9/8868769923102/14919122_color.jpg",
+                ],
+                "volumePricesFlag": false,
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onEndReached={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "marginBottom": 40,
+              "paddingBottom": 70,
+              "width": "100%",
+            }
+          }
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#ffffff",
+                      "height": 1000.5,
+                      "width": 727.5,
+                    },
+                    Object {
+                      "marginBottom": "40%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderRadius": 8,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel=""
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID=""
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 8,
+                            "height": "100%",
+                            "width": "100%",
+                          },
+                          false,
+                        ]
+                      }
+                    >
+                      <Image
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/hc7/h74/8891489878046/15366491-0_product_300Wx450H",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            },
+                            Object {},
+                          ]
+                        }
+                      />
+                      <View
+                        style={
+                          Object {
+                            "alignSelf": "flex-end",
+                            "height": "6%",
+                            "width": "30%",
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    BLUSA TIRAS CON VUE
+                  </Text>
+                  <View
+                    style={Object {}}
+                  >
+                    <View>
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 15,
+                                "height": 30,
+                                "width": 30,
+                              },
+                              undefined,
+                              undefined,
+                            ],
+                          ]
+                        }
+                        testID="plp-button-favorite"
+                      >
+                        <View>
+                          <Text
+                            allowFontScaling={false}
+                            selectable={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#000000",
+                                  "fontSize": 22,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "Material Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                            testID="plp-icon-favorite"
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "marginRight": 5,
+                          "textDecorationLine": "line-through",
+                        },
+                        Object {
+                          "marginRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    $35,99
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 17,
+                          "fontWeight": undefined,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    $3,60
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginHorizontal": 16,
+                      "marginVertical": 4,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <RCTScrollView
+                    data={
+                      Array [
+                        "https://imagestg.deprati.com.ec/sys-master/images/h44/h7f/8891489550366/15366487_color.jpg",
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    horizontal={true}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    showsHorizontalScrollIndicator={false}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "width": "95%",
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h44/h7f/8891489550366/15366487_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+              </View>
+              <View />
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#ffffff",
+                      "height": 1000.5,
+                      "width": 727.5,
+                    },
+                    Object {
+                      "marginBottom": "40%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderRadius": 8,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel=""
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID=""
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 8,
+                            "height": "100%",
+                            "width": "100%",
+                          },
+                          false,
+                        ]
+                      }
+                    >
+                      <Image
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/h06/hff/8891001045022/15307883-0_product_300Wx450H",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            },
+                            Object {},
+                          ]
+                        }
+                      />
+                      <View
+                        style={
+                          Object {
+                            "alignSelf": "flex-end",
+                            "height": "6%",
+                            "width": "30%",
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    BLUSA ONE SHOULDER
+                  </Text>
+                  <View
+                    style={Object {}}
+                  >
+                    <View>
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 15,
+                                "height": 30,
+                                "width": 30,
+                              },
+                              undefined,
+                              undefined,
+                            ],
+                          ]
+                        }
+                        testID="plp-button-favorite"
+                      >
+                        <View>
+                          <Text
+                            allowFontScaling={false}
+                            selectable={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#000000",
+                                  "fontSize": 22,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "Material Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                            testID="plp-icon-favorite"
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "marginRight": 5,
+                          "textDecorationLine": "line-through",
+                        },
+                        Object {
+                          "marginRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    $35,99
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 17,
+                          "fontWeight": undefined,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    $3,60
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginHorizontal": 16,
+                      "marginVertical": 4,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <RCTScrollView
+                    data={
+                      Array [
+                        "https://imagestg.deprati.com.ec/sys-master/images/h12/h81/8891002617886/15307881_color.jpg",
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    horizontal={true}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    showsHorizontalScrollIndicator={false}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "width": "95%",
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h12/h81/8891002617886/15307881_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+              </View>
+              <View />
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#ffffff",
+                      "height": 1000.5,
+                      "width": 727.5,
+                    },
+                    Object {
+                      "marginBottom": "40%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderRadius": 8,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel=""
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID=""
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 8,
+                            "height": "100%",
+                            "width": "100%",
+                          },
+                          false,
+                        ]
+                      }
+                    >
+                      <Image
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/hbd/h8b/8891010416670/15307895-0_product_300Wx450H",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            },
+                            Object {},
+                          ]
+                        }
+                      />
+                      <View
+                        style={
+                          Object {
+                            "alignSelf": "flex-end",
+                            "height": "6%",
+                            "width": "30%",
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    BLUSA VUELOS UNICOL
+                  </Text>
+                  <View
+                    style={Object {}}
+                  >
+                    <View>
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 15,
+                                "height": 30,
+                                "width": 30,
+                              },
+                              undefined,
+                              undefined,
+                            ],
+                          ]
+                        }
+                        testID="plp-button-favorite"
+                      >
+                        <View>
+                          <Text
+                            allowFontScaling={false}
+                            selectable={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#000000",
+                                  "fontSize": 22,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "Material Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                            testID="plp-icon-favorite"
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "marginRight": 5,
+                          "textDecorationLine": "line-through",
+                        },
+                        Object {
+                          "marginRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    $35,99
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 17,
+                          "fontWeight": undefined,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    $3,60
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginHorizontal": 16,
+                      "marginVertical": 4,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <RCTScrollView
+                    data={
+                      Array [
+                        "https://imagestg.deprati.com.ec/sys-master/images/hcf/h73/8891015626782/15307894_color.jpg",
+                        "https://imagestg.deprati.com.ec/sys-master/images/h9b/h72/8891007598622/15307890_color.jpg",
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    horizontal={true}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    showsHorizontalScrollIndicator={false}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "width": "95%",
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/hcf/h73/8891015626782/15307894_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h9b/h72/8891007598622/15307890_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+              </View>
+              <View />
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#ffffff",
+                      "height": 1000.5,
+                      "width": 727.5,
+                    },
+                    Object {
+                      "marginBottom": "40%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderRadius": 8,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel=""
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID=""
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 8,
+                            "height": "100%",
+                            "width": "100%",
+                          },
+                          false,
+                        ]
+                      }
+                    >
+                      <Image
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/h87/ha7/8891021262878/15307906-0_product_300Wx450H",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            },
+                            Object {},
+                          ]
+                        }
+                      />
+                      <View
+                        style={
+                          Object {
+                            "alignSelf": "flex-end",
+                            "height": "6%",
+                            "width": "30%",
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    BLUSA HALTER ESTAMP
+                  </Text>
+                  <View
+                    style={Object {}}
+                  >
+                    <View>
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 15,
+                                "height": 30,
+                                "width": 30,
+                              },
+                              undefined,
+                              undefined,
+                            ],
+                          ]
+                        }
+                        testID="plp-button-favorite"
+                      >
+                        <View>
+                          <Text
+                            allowFontScaling={false}
+                            selectable={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#000000",
+                                  "fontSize": 22,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "Material Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                            testID="plp-icon-favorite"
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "marginRight": 5,
+                          "textDecorationLine": "line-through",
+                        },
+                        Object {
+                          "marginRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    $35,99
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 17,
+                          "fontWeight": undefined,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    $3,60
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginHorizontal": 16,
+                      "marginVertical": 4,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <RCTScrollView
+                    data={
+                      Array [
+                        "https://imagestg.deprati.com.ec/sys-master/images/h42/hde/8891022704670/15307903_color.jpg",
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    horizontal={true}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    showsHorizontalScrollIndicator={false}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "width": "95%",
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h42/hde/8891022704670/15307903_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+              </View>
+              <View />
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#ffffff",
+                      "height": 1000.5,
+                      "width": 727.5,
+                    },
+                    Object {
+                      "marginBottom": "40%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderRadius": 8,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel=""
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID=""
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 8,
+                            "height": "100%",
+                            "width": "100%",
+                          },
+                          false,
+                        ]
+                      }
+                    >
+                      <Image
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/h13/h74/8890901233694/15291417-0_product_300Wx450H",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            },
+                            Object {},
+                          ]
+                        }
+                      />
+                      <View
+                        style={
+                          Object {
+                            "alignSelf": "flex-end",
+                            "height": "6%",
+                            "width": "30%",
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    BLUSA TIPO CAMISERO
+                  </Text>
+                  <View
+                    style={Object {}}
+                  >
+                    <View>
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 15,
+                                "height": 30,
+                                "width": 30,
+                              },
+                              undefined,
+                              undefined,
+                            ],
+                          ]
+                        }
+                        testID="plp-button-favorite"
+                      >
+                        <View>
+                          <Text
+                            allowFontScaling={false}
+                            selectable={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#000000",
+                                  "fontSize": 22,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "Material Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                            testID="plp-icon-favorite"
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "marginRight": 5,
+                          "textDecorationLine": "line-through",
+                        },
+                        Object {
+                          "marginRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    $39,98
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 17,
+                          "fontWeight": undefined,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    $4,00
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginHorizontal": 16,
+                      "marginVertical": 4,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <RCTScrollView
+                    data={
+                      Array [
+                        "https://imagestg.deprati.com.ec/sys-master/images/h01/hd4/8890904576030/15291416_color.jpg",
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    horizontal={true}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    showsHorizontalScrollIndicator={false}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "width": "95%",
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h01/hd4/8890904576030/15291416_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+              </View>
+              <View />
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#ffffff",
+                      "height": 1000.5,
+                      "width": 727.5,
+                    },
+                    Object {
+                      "marginBottom": "40%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderRadius": 8,
+                      "height": "100%",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel=""
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID=""
+                  >
+                    <View
+                      accessibilityIgnoresInvertColors={true}
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 8,
+                            "height": "100%",
+                            "width": "100%",
+                          },
+                          false,
+                        ]
+                      }
+                    >
+                      <Image
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "uri": "https://imagestg.deprati.com.ec/sys-master/images/h0e/h62/8821513715742/14856308-0_product_300Wx450H",
+                          }
+                        }
+                        style={
+                          Array [
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "height": "100%",
+                              "width": "100%",
+                            },
+                            Object {},
+                          ]
+                        }
+                      />
+                      <View
+                        style={
+                          Object {
+                            "alignSelf": "flex-end",
+                            "height": "6%",
+                            "width": "30%",
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    Blusa Amanda con amarre
+                  </Text>
+                  <View
+                    style={Object {}}
+                  >
+                    <View>
+                      <View
+                        accessibilityRole="button"
+                        accessibilityState={
+                          Object {
+                            "disabled": false,
+                          }
+                        }
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 15,
+                                "height": 30,
+                                "width": 30,
+                              },
+                              undefined,
+                              undefined,
+                            ],
+                          ]
+                        }
+                        testID="plp-button-favorite"
+                      >
+                        <View>
+                          <Text
+                            allowFontScaling={false}
+                            selectable={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#000000",
+                                  "fontSize": 22,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "Material Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                            testID="plp-icon-favorite"
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginHorizontal": 16,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "marginRight": 5,
+                          "textDecorationLine": "line-through",
+                        },
+                        Object {
+                          "marginRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    $29,99
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 17,
+                          "fontWeight": undefined,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    $3,00
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginHorizontal": 16,
+                      "marginVertical": 4,
+                      "width": "94%",
+                    }
+                  }
+                >
+                  <RCTScrollView
+                    data={
+                      Array [
+                        "https://imagestg.deprati.com.ec/sys-master/images/h27/h78/8868765237278/14919116_color.jpg",
+                        "https://imagestg.deprati.com.ec/sys-master/images/h8d/h69/8821513977886/14856309_color.jpg",
+                        "https://imagestg.deprati.com.ec/sys-master/images/h31/hb9/8868769923102/14919122_color.jpg",
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    horizontal={true}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    showsHorizontalScrollIndicator={false}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "width": "95%",
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h27/h78/8868765237278/14919116_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h8d/h69/8821513977886/14856309_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "paddingVertical": 5,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#ffffff",
+                                  "borderRadius": 20,
+                                  "borderWidth": 3,
+                                  "elevation": 4,
+                                  "height": 20,
+                                  "marginRight": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.2,
+                                  "shadowRadius": 1.41,
+                                  "width": 20,
+                                },
+                                Object {
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              accessibilityState={
+                                Object {
+                                  "disabled": true,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <View
+                                accessibilityIgnoresInvertColors={true}
+                                style={
+                                  Object {
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Image
+                                  source={
+                                    Object {
+                                      "uri": "https://imagestg.deprati.com.ec/sys-master/images/h31/hb9/8868769923102/14919122_color.jpg",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "height": "100%",
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "borderRadius": 20,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginHorizontal": 16,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "white",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "paddingVertical": 3,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": 20,
+                            "marginRight": 10,
+                            "width": 20,
+                          }
+                        }
+                      >
+                        <RNSVGSvgView
+                          align="xMidYMid"
+                          bbHeight={20}
+                          bbWidth={20}
+                          fill="none"
+                          focusable={false}
+                          height={20}
+                          meetOrSlice={0}
+                          minX={0}
+                          minY={0}
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderWidth": 0,
+                              },
+                              Object {
+                                "flex": 0,
+                                "height": 20,
+                                "width": 20,
+                              },
+                            ]
+                          }
+                          vbHeight={15}
+                          vbWidth={16}
+                          width={20}
+                        >
+                          <RNSVGGroup
+                            fill={null}
+                            propList={
+                              Array [
+                                "fill",
+                              ]
+                            }
+                          >
+                            <RNSVGPath
+                              d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                              fill={4294938646}
+                              propList={
+                                Array [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                        </RNSVGSvgView>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "paddingVertical": 3,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": 20,
+                            "marginRight": 10,
+                            "width": 20,
+                          }
+                        }
+                      >
+                        <RNSVGSvgView
+                          align="xMidYMid"
+                          bbHeight={20}
+                          bbWidth={20}
+                          fill="none"
+                          focusable={false}
+                          height={20}
+                          meetOrSlice={0}
+                          minX={0}
+                          minY={0}
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderWidth": 0,
+                              },
+                              Object {
+                                "flex": 0,
+                                "height": 20,
+                                "width": 20,
+                              },
+                            ]
+                          }
+                          vbHeight={15}
+                          vbWidth={16}
+                          width={20}
+                        >
+                          <RNSVGGroup
+                            fill={null}
+                            propList={
+                              Array [
+                                "fill",
+                              ]
+                            }
+                          >
+                            <RNSVGPath
+                              d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                              fill={4294938646}
+                              propList={
+                                Array [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                        </RNSVGSvgView>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "paddingVertical": 3,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": 20,
+                            "marginRight": 10,
+                            "width": 20,
+                          }
+                        }
+                      >
+                        <RNSVGSvgView
+                          align="xMidYMid"
+                          bbHeight={20}
+                          bbWidth={20}
+                          fill="none"
+                          focusable={false}
+                          height={20}
+                          meetOrSlice={0}
+                          minX={0}
+                          minY={0}
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderWidth": 0,
+                              },
+                              Object {
+                                "flex": 0,
+                                "height": 20,
+                                "width": 20,
+                              },
+                            ]
+                          }
+                          vbHeight={15}
+                          vbWidth={16}
+                          width={20}
+                        >
+                          <RNSVGGroup
+                            fill={null}
+                            propList={
+                              Array [
+                                "fill",
+                              ]
+                            }
+                          >
+                            <RNSVGPath
+                              d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                              fill={4294938646}
+                              propList={
+                                Array [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                        </RNSVGSvgView>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "paddingVertical": 3,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": 20,
+                            "marginRight": 10,
+                            "width": 20,
+                          }
+                        }
+                      >
+                        <RNSVGSvgView
+                          align="xMidYMid"
+                          bbHeight={20}
+                          bbWidth={20}
+                          fill="none"
+                          focusable={false}
+                          height={20}
+                          meetOrSlice={0}
+                          minX={0}
+                          minY={0}
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderWidth": 0,
+                              },
+                              Object {
+                                "flex": 0,
+                                "height": 20,
+                                "width": 20,
+                              },
+                            ]
+                          }
+                          vbHeight={15}
+                          vbWidth={16}
+                          width={20}
+                        >
+                          <RNSVGGroup
+                            fill={null}
+                            propList={
+                              Array [
+                                "fill",
+                              ]
+                            }
+                          >
+                            <RNSVGPath
+                              d="M8.17748 11.4122L12.7257 14.1817L11.5224 8.96194L15.5371 5.45363L10.2455 4.99328L8.17748 0.0742188L6.10943 4.99328L0.817871 5.45363L4.83254 8.96194L3.62924 14.1817L8.17748 11.4122Z"
+                              fill={4294938646}
+                              propList={
+                                Array [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                        </RNSVGSvgView>
+                      </View>
+                    </View>
+                  </View>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": undefined,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    4
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+            />
+          </View>
+        </RCTScrollView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

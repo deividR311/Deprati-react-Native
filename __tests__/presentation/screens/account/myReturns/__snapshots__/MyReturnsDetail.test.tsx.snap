@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyReturnsDetailScreen renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTScrollView
+          ListFooterComponent={[Function]}
+          ListFooterComponentStyle={
+            Object {
+              "flex": 1,
+            }
+          }
+          ListHeaderComponent={[Function]}
+          contentContainerStyle={
+            Object {
+              "flex": 1,
+            }
+          }
+          data={
+            Array [
+              Object {
+                "action": "HOLD",
+                "expectedQuantity": 1,
+                "orderEntry": Object {
+                  "basePrice": Object {
+                    "currencyIso": "USD",
+                    "formattedValue": "$41,06",
+                    "priceType": "BUY",
+                    "value": 41.06,
+                  },
+                  "deliveryMode": Object {
+                    "code": "standard",
+                  },
+                  "entryNumber": 0,
+                  "product": Object {
+                    "acceptGiftPacking": true,
+                    "availableForPickup": false,
+                    "averageRating": 3,
+                    "baseOptions": Array [
+                      Object {
+                        "selected": Object {
+                          "code": "226A37851842157002",
+                          "priceData": Object {
+                            "currencyIso": "USD",
+                            "formattedValue": "$41,06",
+                            "priceType": "BUY",
+                            "value": 41.06,
+                          },
+                          "stock": Object {
+                            "stockLevel": 14,
+                            "stockLevelStatus": "inStock",
+                          },
+                          "url": "/vestido-boho%2C-8%2C-ne/p/226A37851842157002",
+                          "variantOptionQualifiers": Array [],
+                        },
+                        "variantType": "GenericVariantProduct",
+                      },
+                    ],
+                    "baseProduct": "226A37851842157",
+                    "code": "226A37851842157002",
+                    "deliveryModes": Array [
+                      Object {
+                        "code": "standard",
+                      },
+                      Object {
+                        "code": "pickup",
+                      },
+                    ],
+                    "ean": "15444023",
+                    "images": Array [
+                      Object {
+                        "format": "zoom",
+                        "imageType": "PRIMARY",
+                        "url": "https://imagestg.deprati.com.ec/sys-master/images/he7/h27/8888511365150/15444023-0_product_515Wx772H",
+                      },
+                      Object {
+                        "format": "product",
+                        "imageType": "PRIMARY",
+                        "url": "https://imagestg.deprati.com.ec/sys-master/images/h28/h24/8888511496222/15444023-0_product_300Wx450H",
+                      },
+                      Object {
+                        "format": "thumbnail",
+                        "imageType": "PRIMARY",
+                        "url": "https://imagestg.deprati.com.ec/sys-master/images/h17/h21/8888511561758/15444023-0_product_96Wx144H",
+                      },
+                      Object {
+                        "format": "cartIcon",
+                        "imageType": "PRIMARY",
+                        "url": "https://imagestg.deprati.com.ec/sys-master/images/h19/h1e/8888511627294/15444023-0_product_65Wx97H",
+                      },
+                    ],
+                    "isGiftProduct": false,
+                    "isPromotionSpecialPrice": false,
+                    "ivaCondition": "12%",
+                    "name": "VESTIDO BOHO, 8, NE",
+                    "purchasable": true,
+                    "url": "/vestido-boho%2C-8%2C-ne/p/226A37851842157002",
+                    "variantValueCategories": Array [
+                      Object {
+                        "code": "C0190303",
+                        "name": "Negro",
+                        "sequence": 1455,
+                      },
+                      Object {
+                        "code": "T8023",
+                        "name": "10",
+                        "sequence": 16,
+                      },
+                    ],
+                  },
+                  "quantity": 1,
+                  "totalPrice": Object {
+                    "currencyIso": "USD",
+                    "formattedValue": "$41,06",
+                    "priceType": "BUY",
+                    "value": 41.06,
+                  },
+                  "updateable": true,
+                  "volume": 0,
+                  "weight": 0,
+                },
+                "receivedQuantity": 0,
+                "refundAmount": Object {
+                  "currencyIso": "USD",
+                  "formattedValue": "$41,06",
+                  "priceType": "BUY",
+                  "value": 41.06,
+                },
+                "refundReason": "GoodWill",
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={
+            Object {
+              "flex": 1,
+              "marginBottom": 100,
+            }
+          }
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.44,
+                      "lineHeight": 24,
+                    }
+                  }
+                >
+                  Ticket
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#979797",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 12,
+                      "fontStyle": "normal",
+                      "letterSpacing": 0.8,
+                    }
+                  }
+                >
+                  #0175021
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 16,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": 0.44,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "color": "#E31A2C",
+                        "marginTop": 12,
+                      },
+                    ]
+                  }
+                >
+                  Pedido #4681058
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 16,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": 0.44,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "color": "#979797",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 12,
+                        "fontStyle": "normal",
+                        "letterSpacing": 0.8,
+                        "marginBottom": -8,
+                      },
+                    ]
+                  }
+                >
+                  Fecha del pedido: 22 November 2022
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 16,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": 0.44,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "color": "#979797",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 12,
+                        "fontStyle": "normal",
+                        "letterSpacing": 0.8,
+                        "marginBottom": -8,
+                      },
+                    ]
+                  }
+                >
+                  Cantidad: 1 item
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 16,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": 0.44,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "color": "#979797",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 12,
+                        "fontStyle": "normal",
+                        "letterSpacing": 0.8,
+                        "marginBottom": -8,
+                      },
+                    ]
+                  }
+                >
+                  Monto: $49,01
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "borderBottomWidth": 1,
+                      "borderColor": "#E6E6E6",
+                      "marginTop": 16,
+                      "width": "100%",
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 16,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": 0.44,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "marginTop": 12,
+                      },
+                    ]
+                  }
+                >
+                  Estado
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#979797",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 12,
+                      "fontStyle": "normal",
+                      "letterSpacing": 0.8,
+                    }
+                  }
+                >
+                  Pendiente
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "borderBottomWidth": 1,
+                      "borderColor": "#E6E6E6",
+                      "marginTop": 16,
+                      "width": "100%",
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#E6E6E6",
+                    "marginTop": 16,
+                    "width": "100%",
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "backgroundColor": "#CDCDCD",
+                      "flexDirection": "row",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "marginBottom": 10,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingLeft": 10,
+                        },
+                        Object {
+                          "width": "20%",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "lineHeight": 20,
+                        }
+                      }
+                    >
+                      Código
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingLeft": 20,
+                          "width": "60%",
+                        },
+                        Object {
+                          "width": "60%",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "lineHeight": 20,
+                        }
+                      }
+                    >
+                      Descripción
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingLeft": 5,
+                        },
+                        Object {
+                          "width": "20%",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": undefined,
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "lineHeight": 20,
+                        }
+                      }
+                    >
+                      Cantidad
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                    "width": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "paddingLeft": 5,
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "20%",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontFamily": "Roboto-Regular",
+                      }
+                    }
+                  >
+                    15444023
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingHorizontal": 20,
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "60%",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontFamily": "Roboto-Regular",
+                      }
+                    }
+                  >
+                    VESTIDO BOHO, 8, NE
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 5,
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "20%",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontFamily": "Roboto-Regular",
+                      }
+                    }
+                  >
+                    1
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <View
+                  accessibilityLabel=""
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "backgroundColor": "#E31A2C",
+                      "borderRadius": 5,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "opacity": 1,
+                      "paddingVertical": 10,
+                      "width": "91%",
+                    }
+                  }
+                  testID=""
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "white",
+                            "fontFamily": undefined,
+                            "fontSize": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": undefined,
+                          },
+                          Object {},
+                          Object {
+                            "letterSpacing": 0.75,
+                            "lineHeight": 16,
+                          },
+                        ]
+                      }
+                    >
+                      ACEPTAR
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

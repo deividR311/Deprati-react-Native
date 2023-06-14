@@ -1,0 +1,1977 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryPage renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                false,
+              ]
+            }
+          >
+            <View
+              style={Object {}}
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#263238",
+                        "fontSize": 24,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "Material Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "color": "#263238",
+                    "flex": 1,
+                    "flexGrow": 3,
+                    "fontFamily": "Roboto-Bold",
+                    "fontSize": 16,
+                    "letterSpacing": 0.5,
+                    "lineHeight": 26,
+                    "marginLeft": 24,
+                  },
+                  Object {
+                    "textAlign": undefined,
+                  },
+                ]
+              }
+            >
+              Mujeres
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-evenly",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#263238",
+                        "fontSize": 28,
+                      },
+                      Object {
+                        "marginHorizontal": 5,
+                      },
+                      Object {
+                        "fontFamily": "Material Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="shopping-cart"
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 26,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "Material Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "height": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "display": "flex",
+                    "paddingBottom": 5,
+                    "paddingHorizontal": 16,
+                    "paddingTop": 15,
+                    "position": "relative",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#E9EBED",
+                    "borderRadius": 3,
+                    "color": "#E31A2C",
+                    "flexDirection": "row",
+                    "fontSize": 14,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "paddingLeft": 20,
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#263238",
+                        "flexGrow": 3,
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 14,
+                        "lineHeight": 16,
+                        "opacity": 0.7,
+                      },
+                    ]
+                  }
+                >
+                  Busca aquí
+                </Text>
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontSize": 24,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    󰁲
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <RCTScrollView
+            ListFooterComponent={[Function]}
+            contentContainerStyle={
+              Object {
+                "backgroundColor": "#ffffff",
+                "paddingBottom": 170,
+              }
+            }
+            data={
+              Array [
+                "MujeresRotatingCategoryCarousel",
+                "MujeresCategoryFeatureCarousel",
+                "MujeresCategoryBannerColecciones",
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            showsHorizontalScrollIndicator={false}
+            stickyHeaderIndices={Array []}
+            style={
+              Array [
+                Object {
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <RCTScrollView
+                  activeAnimationOptions={null}
+                  activeAnimationType="timing"
+                  activeSlideAlignment="center"
+                  activeSlideOffset={20}
+                  apparitionDelay={0}
+                  automaticallyAdjustContentInsets={false}
+                  autoplay={true}
+                  autoplayDelay={1000}
+                  autoplayInterval={9000}
+                  callbackOffsetMargin={5}
+                  collapsable={false}
+                  containerCustomStyle={Object {}}
+                  contentContainerCustomStyle={Object {}}
+                  contentContainerStyle={
+                    Array [
+                      Object {
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                      },
+                      Object {},
+                    ]
+                  }
+                  data={
+                    Array [
+                      Object {
+                        "childrenComponents": Object {},
+                        "childrenComponentsList": null,
+                        "container": "false",
+                        "external": "false",
+                        "headline": "Tendencia Oasis",
+                        "media": Object {
+                          "code": "Mujeres-BannerPrimario_1_1_Mobile.jpg",
+                          "downloadUrl": "https://imagestg.deprati.com.ec/sys-master/images/h90/h8f/8971632214046/bannerPrimario1.jpg",
+                          "mime": "image/jpeg",
+                          "url": "https://imagestg.deprati.com.ec/sys-master/images/h90/h8f/8971632214046/bannerPrimario1.jpg",
+                        },
+                        "modifiedTime": "2023-01-20T19:47:34+0000",
+                        "name": "Mujeres Banner Container Primario 1",
+                        "typeCode": "BannerComponent",
+                        "uid": "MujeresBannerContainerPrimario_1_1",
+                        "urlLink": "/corner/hyomujeres",
+                      },
+                      Object {
+                        "childrenComponents": Object {},
+                        "childrenComponentsList": null,
+                        "container": "false",
+                        "external": "false",
+                        "headline": "Tendencia Simplcity",
+                        "media": Object {
+                          "code": "Mujeres-BannerPrimario_2_1_Mobile.jpg",
+                          "downloadUrl": "https://imagestg.deprati.com.ec/sys-master/images/he7/h8f/8971632246814/bannerPrimario2.jpg",
+                          "mime": "image/jpeg",
+                          "url": "https://imagestg.deprati.com.ec/sys-master/images/he7/h8f/8971632246814/bannerPrimario2.jpg",
+                        },
+                        "modifiedTime": "2022-10-28T16:01:52+0000",
+                        "name": "Mujeres Banner Container Primario 2",
+                        "typeCode": "BannerComponent",
+                        "uid": "MujeresBannerContainerPrimario_2_1",
+                        "urlLink": "/c/0101",
+                      },
+                      Object {
+                        "childrenComponents": Object {},
+                        "childrenComponentsList": null,
+                        "container": "false",
+                        "external": "false",
+                        "headline": "Vizzano",
+                        "media": Object {
+                          "code": "Mujeres-BannerPrimario_3_1_Mobile.jpg",
+                          "downloadUrl": "https://imagestg.deprati.com.ec/sys-master/images/he9/h8c/8971632181278/bannerPrimario3.jpg",
+                          "mime": "image/jpeg",
+                          "url": "https://imagestg.deprati.com.ec/sys-master/images/he9/h8c/8971632181278/bannerPrimario3.jpg",
+                        },
+                        "modifiedTime": "2022-05-20T14:30:59+0000",
+                        "name": "Mujeres Banner Container Primario 3",
+                        "typeCode": "BannerComponent",
+                        "uid": "MujeresBannerContainerPrimario_3_1",
+                        "urlLink": "/c/0105?q=%3Aname-asc%3Abrand%3A11982",
+                      },
+                    ]
+                  }
+                  decelerationRate="fast"
+                  directionalLockEnabled={true}
+                  enableMomentum={false}
+                  enableSnap={true}
+                  firstItem={0}
+                  forwardedRef={[Function]}
+                  getItem={[Function]}
+                  getItemCount={[Function]}
+                  hasParallaxImages={false}
+                  horizontal={true}
+                  inactiveSlideOpacity={0.8}
+                  inactiveSlideScale={0.9}
+                  inactiveSlideShift={0}
+                  initialNumToRender={6}
+                  invertStickyHeaders={false}
+                  inverted={false}
+                  itemWidth={750}
+                  keyExtractor={[Function]}
+                  layout="default"
+                  lockScrollTimeoutDuration={1000}
+                  lockScrollWhileSnapping={false}
+                  loop={false}
+                  loopClonesPerSide={3}
+                  maxToRenderPerBatch={13}
+                  onContentSizeChange={[Function]}
+                  onLayout={[Function]}
+                  onMomentumScrollBegin={[Function]}
+                  onMomentumScrollEnd={[Function]}
+                  onResponderRelease={[Function]}
+                  onScroll={[Function]}
+                  onScrollBeginDrag={[Function]}
+                  onScrollEndDrag={[Function]}
+                  onSnapToItem={[Function]}
+                  onStartShouldSetResponderCapture={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  overScrollMode="never"
+                  pinchGestureEnabled={false}
+                  removeClippedSubviews={false}
+                  renderItem={[Function]}
+                  scrollEnabled={true}
+                  scrollEventThrottle={1}
+                  scrollsToTop={false}
+                  shouldOptimizeUpdates={true}
+                  showsHorizontalScrollIndicator={false}
+                  showsVerticalScrollIndicator={false}
+                  slideStyle={Object {}}
+                  sliderWidth={750}
+                  stickyHeaderIndices={Array []}
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "opacity": 0,
+                      "width": 750,
+                    }
+                  }
+                  swipeThreshold={20}
+                  useScrollView={false}
+                  vertical={false}
+                  viewabilityConfigCallbackPairs={Array []}
+                  windowSize={13}
+                >
+                  <View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transform": Array [
+                              Object {
+                                "scale": 1,
+                              },
+                            ],
+                            "width": 750,
+                          }
+                        }
+                      >
+                        <View
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "aspectRatio": 1.76,
+                              "height": undefined,
+                              "marginTop": 8,
+                              "opacity": 1,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <Image
+                            resizeMode="contain"
+                            source={
+                              Object {
+                                "uri": "https://imagestg.deprati.com.ec/sys-master/images/h90/h8f/8971632214046/bannerPrimario1.jpg",
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          Object {
+                            "opacity": 0.8,
+                            "transform": Array [
+                              Object {
+                                "scale": 0.9,
+                              },
+                            ],
+                            "width": 750,
+                          }
+                        }
+                      >
+                        <View
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "aspectRatio": 1.76,
+                              "height": undefined,
+                              "marginTop": 8,
+                              "opacity": 1,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <Image
+                            resizeMode="contain"
+                            source={
+                              Object {
+                                "uri": "https://imagestg.deprati.com.ec/sys-master/images/he7/h8f/8971632246814/bannerPrimario2.jpg",
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          Object {
+                            "opacity": 0.8,
+                            "transform": Array [
+                              Object {
+                                "scale": 0.9,
+                              },
+                            ],
+                            "width": 750,
+                          }
+                        }
+                      >
+                        <View
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "aspectRatio": 1.76,
+                              "height": undefined,
+                              "marginTop": 8,
+                              "opacity": 1,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <Image
+                            resizeMode="contain"
+                            source={
+                              Object {
+                                "uri": "https://imagestg.deprati.com.ec/sys-master/images/he9/h8c/8971632181278/bannerPrimario3.jpg",
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </RCTScrollView>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "marginBottom": 16,
+                        "paddingTop": 16,
+                        "width": "100%",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "#ffffff",
+                          "paddingBottom": 8,
+                          "paddingLeft": 16,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#263238",
+                            "fontFamily": "Roboto-Medium",
+                            "fontSize": 16,
+                            "fontWeight": "500",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      Categorías principales
+                    </Text>
+                  </View>
+                  <RCTScrollView
+                    contentContainerStyle={
+                      Object {
+                        "paddingRight": 16,
+                      }
+                    }
+                    data={
+                      Array [
+                        "MujeresCarouselFeatureComponent_2",
+                        "MujeresCarouselFeatureComponent_3",
+                        "MujeresCarouselFeatureComponent_4",
+                        "MujeresCarouselFeatureComponent_6",
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    horizontal={true}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    showsHorizontalScrollIndicator={false}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                          "flexWrap": "wrap",
+                          "paddingLeft": 16,
+                        },
+                        undefined,
+                      ]
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityLabel="category_main0"
+                          accessible={true}
+                          style={
+                            Array [
+                              Object {
+                                "borderRadius": 4,
+                                "marginEnd": 8,
+                                "overflow": "hidden",
+                                "width": 163,
+                              },
+                            ]
+                          }
+                          testID="category_main0"
+                        >
+                          <View
+                            accessibilityLabel="category_main0"
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                            testID="category_main0"
+                          >
+                            <Image
+                              resizeMode="contain"
+                              source={
+                                Object {
+                                  "uri": undefined,
+                                }
+                              }
+                              style={
+                                Array [
+                                  Object {
+                                    "aspectRatio": 0.6707818930041153,
+                                  },
+                                  Object {
+                                    "aspectRatio": 1,
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#263238",
+                                  "fontFamily": "Roboto-Bold",
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "paddingTop": 4,
+                                  "textAlign": "center",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            ROPA DEPORTIVA
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityLabel="category_main1"
+                          accessible={true}
+                          style={
+                            Array [
+                              Object {
+                                "borderRadius": 4,
+                                "marginEnd": 8,
+                                "overflow": "hidden",
+                                "width": 163,
+                              },
+                            ]
+                          }
+                          testID="category_main1"
+                        >
+                          <View
+                            accessibilityLabel="category_main1"
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                            testID="category_main1"
+                          >
+                            <Image
+                              resizeMode="contain"
+                              source={
+                                Object {
+                                  "uri": undefined,
+                                }
+                              }
+                              style={
+                                Array [
+                                  Object {
+                                    "aspectRatio": 0.6707818930041153,
+                                  },
+                                  Object {
+                                    "aspectRatio": 1,
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#263238",
+                                  "fontFamily": "Roboto-Bold",
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "paddingTop": 4,
+                                  "textAlign": "center",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            BLUSAS Y CAMISEROS
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityLabel="category_main2"
+                          accessible={true}
+                          style={
+                            Array [
+                              Object {
+                                "borderRadius": 4,
+                                "marginEnd": 8,
+                                "overflow": "hidden",
+                                "width": 163,
+                              },
+                            ]
+                          }
+                          testID="category_main2"
+                        >
+                          <View
+                            accessibilityLabel="category_main2"
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                            testID="category_main2"
+                          >
+                            <Image
+                              resizeMode="contain"
+                              source={
+                                Object {
+                                  "uri": undefined,
+                                }
+                              }
+                              style={
+                                Array [
+                                  Object {
+                                    "aspectRatio": 0.6707818930041153,
+                                  },
+                                  Object {
+                                    "aspectRatio": 1,
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#263238",
+                                  "fontFamily": "Roboto-Bold",
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "paddingTop": 4,
+                                  "textAlign": "center",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            VESTIDOS Y ENTERIZOS
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityLabel="category_main3"
+                          accessible={true}
+                          style={
+                            Array [
+                              Object {
+                                "borderRadius": 4,
+                                "marginEnd": 8,
+                                "overflow": "hidden",
+                                "width": 163,
+                              },
+                            ]
+                          }
+                          testID="category_main3"
+                        >
+                          <View
+                            accessibilityLabel="category_main3"
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                            testID="category_main3"
+                          >
+                            <Image
+                              resizeMode="contain"
+                              source={
+                                Object {
+                                  "uri": undefined,
+                                }
+                              }
+                              style={
+                                Array [
+                                  Object {
+                                    "aspectRatio": 0.6707818930041153,
+                                  },
+                                  Object {
+                                    "aspectRatio": 1,
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#263238",
+                                  "fontFamily": "Roboto-Bold",
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "paddingTop": 4,
+                                  "textAlign": "center",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            CARTERAS
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#000000",
+                        "height": 1,
+                        "marginBottom": 10,
+                        "marginTop": 16,
+                        "opacity": 0.12,
+                        "width": "80%",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "marginBottom": 10,
+                        "marginLeft": 16,
+                        "marginTop": 16,
+                        "width": "100%",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                          "height": 0.5,
+                        },
+                        undefined,
+                        Array [
+                          Object {
+                            "height": 0,
+                          },
+                          undefined,
+                        ],
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "#ffffff",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#263238",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "400",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      Novedades
+                    </Text>
+                  </View>
+                  <RCTScrollView
+                    activeAnimationOptions={null}
+                    activeAnimationType="timing"
+                    activeSlideAlignment="center"
+                    activeSlideOffset={20}
+                    apparitionDelay={0}
+                    automaticallyAdjustContentInsets={false}
+                    autoplay={false}
+                    autoplayDelay={1000}
+                    autoplayInterval={3000}
+                    callbackOffsetMargin={5}
+                    collapsable={false}
+                    containerCustomStyle={Object {}}
+                    contentContainerCustomStyle={
+                      Object {
+                        "paddingLeft": 0,
+                      }
+                    }
+                    contentContainerStyle={
+                      Array [
+                        Object {
+                          "paddingLeft": 75,
+                          "paddingRight": 75,
+                        },
+                        Object {
+                          "paddingLeft": 0,
+                        },
+                      ]
+                    }
+                    data={
+                      Array [
+                        Object {
+                          "childrenComponents": Object {},
+                          "childrenComponentsList": null,
+                          "container": "false",
+                          "media": Object {
+                            "altText": "Paraíso Creativo",
+                            "format": "mobile",
+                            "imageType": "GALLERY",
+                            "url": "https://imagestg.deprati.com.ec/sys-master/images/hb5/h99/8971632508958/bannerSecundario1.jpg",
+                            "width": "480",
+                          },
+                          "modifiedTime": "2022-05-24T21:13:37+0000",
+                          "name": "Componente_de_titular_adecuado_simple",
+                          "typeCode": "SimpleResponsiveBannerComponent",
+                          "uid": "MujeresBannerContainerSecundario_1_1",
+                          "urlLink": "https://sstghybris.deprati.com.ec/es/gafas/c/010406",
+                        },
+                        Object {
+                          "childrenComponents": Object {},
+                          "childrenComponentsList": null,
+                          "container": "false",
+                          "media": Object {
+                            "format": "mobile",
+                            "imageType": "GALLERY",
+                            "url": "https://imagestg.deprati.com.ec/sys-master/images/h99/h46/8983277666334/MujerepruebaEstef.jpg",
+                            "width": "480",
+                          },
+                          "modifiedTime": "2023-02-27T13:19:04+0000",
+                          "name": "MujeresBannerContainerSecundario_3_1",
+                          "typeCode": "SimpleResponsiveBannerComponent",
+                          "uid": "MujeresBannerContainerSecundario_3_1",
+                          "urlLink": "/c/0106",
+                        },
+                      ]
+                    }
+                    decelerationRate="fast"
+                    directionalLockEnabled={true}
+                    enableMomentum={false}
+                    enableSnap={true}
+                    firstItem={0}
+                    forwardedRef={[Function]}
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    hasParallaxImages={false}
+                    horizontal={true}
+                    inactiveSlideOpacity={0.7}
+                    inactiveSlideScale={0.9}
+                    inactiveSlideShift={0}
+                    initialNumToRender={7}
+                    invertStickyHeaders={false}
+                    inverted={false}
+                    itemWidth={600}
+                    keyExtractor={[Function]}
+                    layout="default"
+                    lockScrollTimeoutDuration={1000}
+                    lockScrollWhileSnapping={false}
+                    loop={false}
+                    loopClonesPerSide={3}
+                    maxToRenderPerBatch={15}
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onResponderRelease={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    onStartShouldSetResponderCapture={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    overScrollMode="never"
+                    pinchGestureEnabled={false}
+                    removeClippedSubviews={true}
+                    renderItem={[Function]}
+                    scrollEnabled={true}
+                    scrollEventThrottle={1}
+                    scrollsToTop={false}
+                    shouldOptimizeUpdates={true}
+                    showsHorizontalScrollIndicator={false}
+                    showsVerticalScrollIndicator={false}
+                    slideStyle={Object {}}
+                    sliderWidth={750}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "opacity": 0,
+                        "width": 750,
+                      }
+                    }
+                    swipeThreshold={20}
+                    useScrollView={false}
+                    vertical={false}
+                    viewabilityConfigCallbackPairs={Array []}
+                    windowSize={15}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          collapsable={false}
+                          pointerEvents="box-none"
+                          style={
+                            Object {
+                              "opacity": 1,
+                              "transform": Array [
+                                Object {
+                                  "scale": 1,
+                                },
+                              ],
+                              "width": 600,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "marginTop": 16,
+                                  "width": "100%",
+                                },
+                                Object {
+                                  "height": 116,
+                                },
+                                Object {
+                                  "backgroundColor": "#ffffff",
+                                  "borderRadius": 4,
+                                  "marginLeft": 2,
+                                  "overflow": "hidden",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <Image
+                                source={
+                                  Object {
+                                    "uri": "https://imagestg.deprati.com.ec/sys-master/images/hb5/h99/8971632508958/bannerSecundario1.jpg",
+                                  }
+                                }
+                                style={
+                                  Array [
+                                    Object {
+                                      "height": "100%",
+                                      "width": "100%",
+                                    },
+                                  ]
+                                }
+                              />
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          Array [
+                            Object {
+                              "flexDirection": "row",
+                            },
+                            null,
+                          ]
+                        }
+                      >
+                        <View
+                          collapsable={false}
+                          pointerEvents="box-none"
+                          style={
+                            Object {
+                              "opacity": 0.7,
+                              "transform": Array [
+                                Object {
+                                  "scale": 0.9,
+                                },
+                              ],
+                              "width": 600,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "marginTop": 16,
+                                  "width": "100%",
+                                },
+                                Object {
+                                  "height": 116,
+                                },
+                                Object {
+                                  "backgroundColor": "#ffffff",
+                                  "borderRadius": 4,
+                                  "marginLeft": 2,
+                                  "overflow": "hidden",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <Image
+                                source={
+                                  Object {
+                                    "uri": "https://imagestg.deprati.com.ec/sys-master/images/h99/h46/8983277666334/MujerepruebaEstef.jpg",
+                                  }
+                                }
+                                style={
+                                  Array [
+                                    Object {
+                                      "height": "100%",
+                                      "width": "100%",
+                                    },
+                                  ]
+                                }
+                              />
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </RCTScrollView>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                          "height": 0.5,
+                        },
+                        undefined,
+                        Array [
+                          Object {
+                            "height": 0,
+                          },
+                          undefined,
+                        ],
+                      ]
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#000000",
+                        "height": 1,
+                        "marginBottom": 10,
+                        "marginTop": 16,
+                        "opacity": 0.12,
+                        "width": "80%",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <RCTScrollView
+                  ListFooterComponent={[Function]}
+                  contentContainerStyle={
+                    Object {
+                      "marginTop": 16,
+                      "paddingRight": 24,
+                    }
+                  }
+                  data={
+                    Array [
+                      "MujeresFeatureComponent_1",
+                      "MujeresFeatureComponent_2",
+                      "MujeresFeatureComponent_3",
+                      "MujeresFeatureComponent_4",
+                    ]
+                  }
+                  getItem={[Function]}
+                  getItemCount={[Function]}
+                  horizontal={true}
+                  keyExtractor={[Function]}
+                  onContentSizeChange={[Function]}
+                  onLayout={[Function]}
+                  onMomentumScrollBegin={[Function]}
+                  onMomentumScrollEnd={[Function]}
+                  onScroll={[Function]}
+                  onScrollBeginDrag={[Function]}
+                  onScrollEndDrag={[Function]}
+                  removeClippedSubviews={false}
+                  renderItem={[Function]}
+                  scrollEventThrottle={50}
+                  showsHorizontalScrollIndicator={false}
+                  stickyHeaderIndices={Array []}
+                  style={
+                    Array [
+                      Object {
+                        "width": "100%",
+                      },
+                      undefined,
+                    ]
+                  }
+                  viewabilityConfigCallbackPairs={Array []}
+                >
+                  <View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "flex-start",
+                            "marginEnd": 2,
+                            "marginStart": 16,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "aspectRatio": 0.8846153846153846,
+                                "borderRadius": 4,
+                                "overflow": "hidden",
+                                "width": 156,
+                              },
+                            ]
+                          }
+                        >
+                          <Image
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          numberOfLines={2}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": undefined,
+                                "lineHeight": 16,
+                                "paddingTop": 8,
+                                "textAlign": "center",
+                                "width": 144,
+                              },
+                            ]
+                          }
+                        >
+                          Gafas Ray Ban Dorado
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "flex-start",
+                            "marginEnd": 2,
+                            "marginStart": 16,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "aspectRatio": 0.8846153846153846,
+                                "borderRadius": 4,
+                                "overflow": "hidden",
+                                "width": 156,
+                              },
+                            ]
+                          }
+                        >
+                          <Image
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          numberOfLines={2}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": undefined,
+                                "lineHeight": 16,
+                                "paddingTop": 8,
+                                "textAlign": "center",
+                                "width": 144,
+                              },
+                            ]
+                          }
+                        >
+                          Gafas Ray Ban
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "flex-start",
+                            "marginEnd": 2,
+                            "marginStart": 16,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "aspectRatio": 0.8846153846153846,
+                                "borderRadius": 4,
+                                "overflow": "hidden",
+                                "width": 156,
+                              },
+                            ]
+                          }
+                        >
+                          <Image
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          numberOfLines={2}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": undefined,
+                                "lineHeight": 16,
+                                "paddingTop": 8,
+                                "textAlign": "center",
+                                "width": 144,
+                              },
+                            ]
+                          }
+                        >
+                          Bikinis
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          null,
+                        ]
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "flex-start",
+                            "marginEnd": 2,
+                            "marginStart": 16,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "aspectRatio": 0.8846153846153846,
+                                "borderRadius": 4,
+                                "overflow": "hidden",
+                                "width": 156,
+                              },
+                            ]
+                          }
+                        >
+                          <Image
+                            source={
+                              Object {
+                                "uri": undefined,
+                              }
+                            }
+                            style={
+                              Array [
+                                Object {
+                                  "height": "100%",
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                        <Text
+                          numberOfLines={2}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Bold",
+                                "fontSize": 12,
+                                "fontWeight": undefined,
+                                "lineHeight": 16,
+                                "paddingTop": 8,
+                                "textAlign": "center",
+                                "width": 144,
+                              },
+                            ]
+                          }
+                        >
+                          Traje de Baño Entero
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      onLayout={[Function]}
+                    />
+                  </View>
+                </RCTScrollView>
+              </View>
+            </View>
+          </RCTScrollView>
+          <Modal
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          />
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

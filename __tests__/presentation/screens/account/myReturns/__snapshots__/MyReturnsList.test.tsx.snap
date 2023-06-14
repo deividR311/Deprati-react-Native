@@ -1,0 +1,1609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyReturnsListScreen renders correctly in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            style={
+              Object {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#E6E6E650",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "paddingRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": undefined,
+                          "fontSize": 10,
+                          "fontWeight": undefined,
+                          "letterSpacing": 1,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    TICKET: 0175021
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4,
+                        "elevation": 4,
+                        "marginVertical": 11,
+                        "paddingTop": 10,
+                        "shadowColor": "#000",
+                        "shadowOffset": Object {
+                          "height": 2,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.25,
+                        "shadowRadius": 3.84,
+                      },
+                      Object {
+                        "marginHorizontal": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "height": 90,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "width": "90%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 10,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 15,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                                "letterSpacing": 1,
+                              }
+                            }
+                          >
+                            No. Pedido: #
+                            4681058
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Artículos:
+                             
+                            1
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Estado: 
+                            Pendiente
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "paddingTop": 25,
+                            "width": "10%",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          selectable={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontSize": 15,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#E6E6E650",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "paddingRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": undefined,
+                          "fontSize": 10,
+                          "fontWeight": undefined,
+                          "letterSpacing": 1,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    TICKET: 0175020
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4,
+                        "elevation": 4,
+                        "marginVertical": 11,
+                        "paddingTop": 10,
+                        "shadowColor": "#000",
+                        "shadowOffset": Object {
+                          "height": 2,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.25,
+                        "shadowRadius": 3.84,
+                      },
+                      Object {
+                        "marginHorizontal": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "height": 90,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "width": "90%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 10,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 15,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                                "letterSpacing": 1,
+                              }
+                            }
+                          >
+                            No. Pedido: #
+                            4611012
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Artículos:
+                             
+                            3
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Estado: 
+                            Pendiente
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "paddingTop": 25,
+                            "width": "10%",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          selectable={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontSize": 15,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#E6E6E650",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "paddingRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": undefined,
+                          "fontSize": 10,
+                          "fontWeight": undefined,
+                          "letterSpacing": 1,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    TICKET: 0175015
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4,
+                        "elevation": 4,
+                        "marginVertical": 11,
+                        "paddingTop": 10,
+                        "shadowColor": "#000",
+                        "shadowOffset": Object {
+                          "height": 2,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.25,
+                        "shadowRadius": 3.84,
+                      },
+                      Object {
+                        "marginHorizontal": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "height": 90,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "width": "90%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 10,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 15,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                                "letterSpacing": 1,
+                              }
+                            }
+                          >
+                            No. Pedido: #
+                            4681047
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Artículos:
+                             
+                            1
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Estado: 
+                            Pendiente
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "paddingTop": 25,
+                            "width": "10%",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          selectable={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontSize": 15,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#E6E6E650",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "paddingRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": undefined,
+                          "fontSize": 10,
+                          "fontWeight": undefined,
+                          "letterSpacing": 1,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    TICKET: 0175014
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4,
+                        "elevation": 4,
+                        "marginVertical": 11,
+                        "paddingTop": 10,
+                        "shadowColor": "#000",
+                        "shadowOffset": Object {
+                          "height": 2,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.25,
+                        "shadowRadius": 3.84,
+                      },
+                      Object {
+                        "marginHorizontal": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "height": 90,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "width": "90%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 10,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 15,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                                "letterSpacing": 1,
+                              }
+                            }
+                          >
+                            No. Pedido: #
+                            4681050
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Artículos:
+                             
+                            1
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Estado: 
+                            Pendiente
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "paddingTop": 25,
+                            "width": "10%",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          selectable={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontSize": 15,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#E6E6E650",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "paddingRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": undefined,
+                          "fontSize": 10,
+                          "fontWeight": undefined,
+                          "letterSpacing": 1,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    TICKET: 0175013
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4,
+                        "elevation": 4,
+                        "marginVertical": 11,
+                        "paddingTop": 10,
+                        "shadowColor": "#000",
+                        "shadowOffset": Object {
+                          "height": 2,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.25,
+                        "shadowRadius": 3.84,
+                      },
+                      Object {
+                        "marginHorizontal": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "height": 90,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "width": "90%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 10,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 15,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                                "letterSpacing": 1,
+                              }
+                            }
+                          >
+                            No. Pedido: #
+                            4618015
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Artículos:
+                             
+                            1
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Estado: 
+                            Pendiente
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "paddingTop": 25,
+                            "width": "10%",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          selectable={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontSize": 15,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#E6E6E650",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "paddingRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": undefined,
+                          "fontSize": 10,
+                          "fontWeight": undefined,
+                          "letterSpacing": 1,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    TICKET: 0175012
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4,
+                        "elevation": 4,
+                        "marginVertical": 11,
+                        "paddingTop": 10,
+                        "shadowColor": "#000",
+                        "shadowOffset": Object {
+                          "height": 2,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.25,
+                        "shadowRadius": 3.84,
+                      },
+                      Object {
+                        "marginHorizontal": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "height": 90,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "width": "90%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 10,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 15,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                                "letterSpacing": 1,
+                              }
+                            }
+                          >
+                            No. Pedido: #
+                            4612035
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Artículos:
+                             
+                            1
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Estado: 
+                            Pendiente
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "paddingTop": 25,
+                            "width": "10%",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          selectable={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontSize": 15,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#E6E6E650",
+                      "height": 32,
+                      "justifyContent": "center",
+                      "paddingRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": undefined,
+                          "fontSize": 10,
+                          "fontWeight": undefined,
+                          "letterSpacing": 1,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    TICKET: 0175011
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4,
+                        "elevation": 4,
+                        "marginVertical": 11,
+                        "paddingTop": 10,
+                        "shadowColor": "#000",
+                        "shadowOffset": Object {
+                          "height": 2,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.25,
+                        "shadowRadius": 3.84,
+                      },
+                      Object {
+                        "marginHorizontal": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "height": 90,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "width": "90%",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 10,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Object {
+                                "color": "#000000",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 15,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                                "letterSpacing": 1,
+                              }
+                            }
+                          >
+                            No. Pedido: #
+                            4605010
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Artículos:
+                             
+                            1
+                          </Text>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#979797",
+                                "fontFamily": "Roboto-Medium",
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "letterSpacing": 0.8,
+                              }
+                            }
+                          >
+                            Estado: 
+                            Pendiente
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "paddingTop": 25,
+                            "width": "10%",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          selectable={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#263238",
+                                "fontSize": 15,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginBottom": 20,
+                    "marginTop": 10,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "flexDirection": "row",
+                      "height": 50,
+                      "justifyContent": "center",
+                      "width": "50%",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#ffffff",
+                        "borderBottomLeftRadius": 4,
+                        "borderColor": "#2632384D",
+                        "borderTopLeftRadius": 4,
+                        "borderWidth": 1,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 30,
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#E31A2C",
+                            "fontSize": 30,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Design Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      󰍞
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#E31A2C",
+                        "height": 30,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 30,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#ffffff",
+                          "fontFamily": "Roboto-Regular",
+                        }
+                      }
+                    >
+                      1
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#ffffff",
+                        "borderColor": "#2632384D",
+                        "borderWidth": 1,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 30,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#E31A2C",
+                          "fontFamily": "Roboto-Regular",
+                        }
+                      }
+                    >
+                      2
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#ffffff",
+                        "borderBottomRightRadius": 4,
+                        "borderColor": "#2632384D",
+                        "borderTopRightRadius": 4,
+                        "borderWidth": 1,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 30,
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#E31A2C",
+                            "fontSize": 30,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Design Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      󰍟
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessibilityLabel=""
+                accessibilityState={
+                  Object {
+                    "disabled": false,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "backgroundColor": "#E31A2C",
+                    "borderRadius": 5,
+                    "justifyContent": "center",
+                    "marginBottom": 15,
+                    "opacity": 1,
+                    "paddingVertical": 10,
+                    "width": "91%",
+                  }
+                }
+                testID=""
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "white",
+                          "fontFamily": undefined,
+                          "fontSize": 14,
+                          "fontStyle": "normal",
+                          "fontWeight": undefined,
+                        },
+                        Object {},
+                        Object {
+                          "letterSpacing": 0.75,
+                          "lineHeight": 16,
+                        },
+                      ]
+                    }
+                  >
+                    SOLICITAR DEVOLUCIÓN
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+          <View
+            style={
+              Object {
+                "height": "auto",
+                "marginBottom": 70,
+                "marginTop": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "uri": "undefinedundefined",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 120,
+                    "width": "100%",
+                  },
+                ]
+              }
+            />
+          </View>
+          <Modal
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          />
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

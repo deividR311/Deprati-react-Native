@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditInformationChart renders correctly CreditInformationChart in Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.8,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.8,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 12,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.8,
+                  },
+                  Object {
+                    "color": "#26323880",
+                  },
+                ]
+              }
+            >
+              Cliente desde 
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "paddingTop": 35,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 214,
+                    "width": 214,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  align="xMidYMid"
+                  bbHeight={214}
+                  bbWidth={214}
+                  fill="gray"
+                  focusable={false}
+                  height={214}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 214,
+                        "width": 214,
+                      },
+                    ]
+                  }
+                  vbHeight={242}
+                  vbWidth={242}
+                  width={214}
+                >
+                  <RNSVGGroup
+                    fill={4286611584}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  >
+                    <RNSVGGroup
+                      matrix={
+                        Array [
+                          1,
+                          0,
+                          -0,
+                          1,
+                          0,
+                          0,
+                        ]
+                      }
+                    >
+                      <RNSVGCircle
+                        cx="50%"
+                        cy="50%"
+                        fill={0}
+                        matrix={
+                          Array [
+                            -0.8660254037844386,
+                            0.5000000000000001,
+                            -0.5000000000000001,
+                            -0.8660254037844386,
+                            286.28907385791706,
+                            165.28907385791706,
+                          ]
+                        }
+                        propList={
+                          Array [
+                            "fill",
+                            "stroke",
+                            "strokeWidth",
+                            "strokeDasharray",
+                            "strokeDashoffset",
+                            "strokeLinejoin",
+                          ]
+                        }
+                        r={107}
+                        stroke={4293322470}
+                        strokeDasharray={
+                          Array [
+                            672.3008278682157,
+                            672.3008278682157,
+                          ]
+                        }
+                        strokeDashoffset={224.1002759560719}
+                        strokeLinejoin={1}
+                        strokeWidth={14}
+                      />
+                      <RNSVGCircle
+                        cx="50%"
+                        cy="50%"
+                        fill={0}
+                        matrix={
+                          Array [
+                            -0.8660254037844386,
+                            0.5000000000000001,
+                            -0.5000000000000001,
+                            -0.8660254037844386,
+                            286.28907385791706,
+                            165.28907385791706,
+                          ]
+                        }
+                        propList={
+                          Array [
+                            "fill",
+                            "stroke",
+                            "strokeWidth",
+                            "strokeDasharray",
+                            "strokeDashoffset",
+                            "strokeLinejoin",
+                          ]
+                        }
+                        r={107}
+                        stroke={4293073452}
+                        strokeDasharray={
+                          Array [
+                            672.3008278682157,
+                            672.3008278682157,
+                          ]
+                        }
+                        strokeDashoffset={224.1002759560719}
+                        strokeLinejoin={1}
+                        strokeWidth={14}
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.25,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "color": "#26323880",
+                    },
+                    Object {
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Cupo utilizado
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 23,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.44,
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "color": "#E31A2C",
+                    },
+                    Object {
+                      "marginBottom": 8,
+                    },
+                  ]
+                }
+              >
+                $
+                20
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.25,
+                      "lineHeight": 20,
+                    },
+                    undefined,
+                    Object {
+                      "color": "#26323880",
+                    },
+                    Object {
+                      "textAlign": "center",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Cupo disponible
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.25,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "marginBottom": 6,
+                    },
+                  ]
+                }
+              >
+                $
+                100
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.25,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "color": "#26323880",
+                    },
+                    Object {
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Cupo autorizado
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.25,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                $
+                200
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

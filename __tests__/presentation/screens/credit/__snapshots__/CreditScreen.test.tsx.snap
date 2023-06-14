@@ -1,0 +1,1373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditScreen renders correctly anonymus and Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            showsVerticalScrollIndicator={false}
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "flex": 1,
+                    "marginBottom": 110,
+                    "paddingHorizontal": 16,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#F5F6F9",
+                      "justifyContent": "center",
+                      "paddingHorizontal": 12,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityIgnoresInvertColors={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignSelf": "center",
+                          "height": 143,
+                          "justifyContent": "center",
+                          "marginTop": 32,
+                          "width": 235,
+                        },
+                        Object {
+                          "height": 80,
+                          "width": 133,
+                        },
+                      ]
+                    }
+                  >
+                    <Image
+                      resizeMode="contain"
+                      source={
+                        Object {
+                          "testUri": "../../../assets/images/cardCredito.png",
+                        }
+                      }
+                      style={
+                        Array [
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          },
+                          Object {
+                            "height": 80,
+                            "width": 133,
+                          },
+                          undefined,
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "marginTop": 12,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#C22431",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 18,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      accessTheBenefits
+                    </Text>
+                    <Text
+                      style={
+                        Object {
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0.15,
+                          "lineHeight": 22,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      signInAndLinkYourCredit
+                    </Text>
+                  </View>
+                  <View>
+                    <View
+                      accessibilityLabel=""
+                      accessibilityState={
+                        Object {
+                          "disabled": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#E31A2C",
+                          "borderRadius": 5,
+                          "justifyContent": "center",
+                          "marginVertical": 16,
+                          "opacity": 1,
+                          "paddingVertical": 10,
+                          "width": "100%",
+                        }
+                      }
+                      testID=""
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "white",
+                                "fontFamily": undefined,
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                              },
+                              Object {},
+                              Object {},
+                            ]
+                          }
+                        >
+                          INICIAR SESIÓN
+                        </Text>
+                      </View>
+                    </View>
+                    <Modal
+                      animationType="fade"
+                      hardwareAccelerated={false}
+                      onDismiss={[Function]}
+                      transparent={true}
+                      visible={false}
+                    />
+                    <Modal
+                      animationType="fade"
+                      hardwareAccelerated={false}
+                      onDismiss={[Function]}
+                      transparent={true}
+                      visible={false}
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                        "height": 0.5,
+                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "height": 1,
+                          "marginVertical": 20,
+                        },
+                        Object {
+                          "alignSelf": "center",
+                          "width": "90%",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "marginBottom": 0,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#C22431",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 18,
+                        "fontWeight": undefined,
+                        "letterSpacing": 0.15,
+                        "lineHeight": 24,
+                        "marginBottom": 8,
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    stillDontHaveIt
+                  </Text>
+                  <View
+                    accessibilityLabel="credit_solicitar_btn"
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "borderColor": "#000000",
+                        "borderRadius": 5,
+                        "borderWidth": 1,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "paddingVertical": 10,
+                        "width": "100%",
+                      }
+                    }
+                    testID="credit_solicitar_btn"
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "white",
+                              "fontFamily": undefined,
+                              "fontSize": 14,
+                              "fontStyle": "normal",
+                              "fontWeight": undefined,
+                            },
+                            Object {},
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.8,
+                              "textAlign": "center",
+                            },
+                          ]
+                        }
+                      >
+                        APP_BOTON_LABEL.requestItHere
+                      </Text>
+                    </View>
+                  </View>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 20,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Bold",
+                          "fontSize": 18,
+                          "marginTop": 32,
+                        },
+                      ]
+                    }
+                  >
+                    beginAndEnjoyBenefits
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "flexWrap": "wrap",
+                      "justifyContent": "space-between",
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+          <Modal
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          />
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
+
+exports[`CreditScreen renders correctly login and Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            showsVerticalScrollIndicator={false}
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "flex": 1,
+                    "marginBottom": 110,
+                    "paddingHorizontal": 16,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#F5F6F9",
+                      "justifyContent": "center",
+                      "paddingHorizontal": 12,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityIgnoresInvertColors={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignSelf": "center",
+                          "height": 143,
+                          "justifyContent": "center",
+                          "marginTop": 32,
+                          "width": 235,
+                        },
+                        Object {
+                          "height": 80,
+                          "width": 133,
+                        },
+                      ]
+                    }
+                  >
+                    <Image
+                      resizeMode="contain"
+                      source={
+                        Object {
+                          "testUri": "../../../assets/images/cardCredito.png",
+                        }
+                      }
+                      style={
+                        Array [
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          },
+                          Object {
+                            "height": 80,
+                            "width": 133,
+                          },
+                          undefined,
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "marginTop": 12,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#C22431",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 18,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      accessTheServices
+                    </Text>
+                    <Text
+                      style={
+                        Object {
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0.15,
+                          "lineHeight": 22,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      youMustLinkCredit
+                    </Text>
+                  </View>
+                  <View>
+                    <View
+                      accessibilityLabel=""
+                      accessibilityState={
+                        Object {
+                          "disabled": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#E31A2C",
+                          "borderRadius": 5,
+                          "justifyContent": "center",
+                          "marginVertical": 16,
+                          "opacity": 1,
+                          "paddingVertical": 10,
+                          "width": "100%",
+                        }
+                      }
+                      testID=""
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "white",
+                                "fontFamily": undefined,
+                                "fontSize": 14,
+                                "fontStyle": "normal",
+                                "fontWeight": undefined,
+                              },
+                              Object {},
+                              Object {},
+                            ]
+                          }
+                        >
+                          VINCULA TU CRÉDITO DE PRATI
+                        </Text>
+                      </View>
+                    </View>
+                    <Modal
+                      animationType="fade"
+                      hardwareAccelerated={false}
+                      onDismiss={[Function]}
+                      transparent={true}
+                      visible={false}
+                    />
+                    <Modal
+                      animationType="fade"
+                      hardwareAccelerated={false}
+                      onDismiss={[Function]}
+                      transparent={true}
+                      visible={false}
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                        "height": 0.5,
+                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "height": 1,
+                          "marginVertical": 20,
+                        },
+                        Object {
+                          "alignSelf": "center",
+                          "width": "90%",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "marginBottom": 0,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#C22431",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 18,
+                        "fontWeight": undefined,
+                        "letterSpacing": 0.15,
+                        "lineHeight": 24,
+                        "marginBottom": 8,
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    stillDontHaveIt
+                  </Text>
+                  <View
+                    accessibilityLabel="credit_solicitar_btn"
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "borderColor": "#000000",
+                        "borderRadius": 5,
+                        "borderWidth": 1,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "paddingVertical": 10,
+                        "width": "100%",
+                      }
+                    }
+                    testID="credit_solicitar_btn"
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "white",
+                              "fontFamily": undefined,
+                              "fontSize": 14,
+                              "fontStyle": "normal",
+                              "fontWeight": undefined,
+                            },
+                            Object {},
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 14,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.8,
+                              "textAlign": "center",
+                            },
+                          ]
+                        }
+                      >
+                        APP_BOTON_LABEL.requestItHere
+                      </Text>
+                    </View>
+                  </View>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 20,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.15,
+                          "lineHeight": 24,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Bold",
+                          "fontSize": 18,
+                          "marginTop": 32,
+                        },
+                      ]
+                    }
+                  >
+                    beginAndEnjoyBenefits
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "flexWrap": "wrap",
+                      "justifyContent": "space-between",
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+          <Modal
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          />
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
+
+exports[`CreditScreen renders correctly vinculation and Snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        Object {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        hideShadow={true}
+        largeTitleHideShadow={false}
+        title="default"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            showsVerticalScrollIndicator={false}
+          >
+            <View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "justifyContent": "center",
+                      "paddingHorizontal": 10,
+                    },
+                    Object {
+                      "paddingHorizontal": 16,
+                      "paddingVertical": 8,
+                    },
+                    Object {
+                      "display": "none",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "borderRadius": 5,
+                        "flexDirection": "row",
+                        "paddingVertical": 10,
+                        "width": "100%",
+                      },
+                      Object {},
+                      Object {
+                        "backgroundColor": "#F5F6F9",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                            "marginHorizontal": 8,
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#263238",
+                              "fontSize": 24,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "Material Design Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        󰋽
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "justifyContent": "center",
+                            "width": "80%",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "400",
+                            "letterSpacing": 0.25,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        error.chargingErrorOccurred
+                         
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "fontFamily": "Roboto-Bold",
+                                "fontWeight": "bold",
+                              },
+                            ]
+                          }
+                        >
+                          error.reloadThisSection
+                        </Text>
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      onPress={[Function]}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#263238",
+                            "fontSize": 20,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Design Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      󰑥
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "flex": 1,
+                    "marginBottom": 110,
+                    "paddingHorizontal": 16,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "marginTop": 15,
+                        "padding": 10,
+                      },
+                      Object {
+                        "height": 432.155737704918,
+                      },
+                    ]
+                  }
+                >
+                  <View>
+                    <Image
+                      resizeMode="contain"
+                      source={
+                        Object {
+                          "testUri": "../../../assets/images/cardCredito.png",
+                        }
+                      }
+                      style={
+                        Array [
+                          Object {},
+                          Object {
+                            "height": 412.155737704918,
+                            "width": 666,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "top": 216.92407247627264,
+                        "width": 638,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "paddingHorizontal": 20,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                        "height": 0.5,
+                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "height": 1,
+                          "marginVertical": 20,
+                        },
+                        Object {
+                          "alignSelf": "center",
+                          "width": "100%",
+                        },
+                        Object {
+                          "marginTop": 18,
+                          "marginVertical": "auto",
+                        },
+                      ],
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "justifyContent": "space-between",
+                      },
+                      Object {
+                        "backgroundColor": "#ffffff",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#263238",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 18,
+                          "fontWeight": "500",
+                          "marginTop": 16,
+                        },
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "marginTop": 16,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#3C4858",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "400",
+                          },
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#3C4858",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 14,
+                            "fontWeight": "400",
+                          },
+                        ]
+                      }
+                    >
+                      $0,00
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                        "height": 0.5,
+                      },
+                      undefined,
+                      Object {
+                        "height": 1,
+                        "marginVertical": 20,
+                      },
+                    ]
+                  }
+                />
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "#000000",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "elevation": 4,
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginVertical": 16,
+                      "opacity": 1,
+                      "padding": 12,
+                      "shadowColor": "#979797",
+                      "shadowOffset": Object {
+                        "height": 2,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.23,
+                      "shadowRadius": 2.62,
+                    }
+                  }
+                  testID="credit_services_btn"
+                >
+                  <View>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "Roboto-Regular",
+                            "fontSize": 18,
+                            "fontWeight": "700",
+                            "letterSpacing": 0.8,
+                            "lineHeight": 24,
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                    >
+                      dePratiCreditServices
+                    </Text>
+                  </View>
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#979797",
+                          "fontSize": 15,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "Material Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+          <Modal
+            hardwareAccelerated={false}
+            transparent={true}
+            visible={false}
+          />
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
